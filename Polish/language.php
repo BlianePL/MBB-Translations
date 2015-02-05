@@ -40,7 +40,7 @@ $lang = array(
 // Miscellaneous
 //
 
-'Announcement'						=>	'Announcement',
+'Announcement'						=>	'Ogłoszenie',
 'Options'							=>	'Global settings',
 'Features'							=>	'Features',
 'Submit'							=>	'Submit', // "Name" of submit buttons
