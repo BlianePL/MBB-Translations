@@ -7,7 +7,7 @@ $lang = array(
 //
 
 'lang_direction'					=>	'ltr', // ltr (Left-To-Right) or rtl (Right-To-Left)
-'lang_identifier'					=>	'en',
+'lang_identifier'					=>	'pl',
 
 //
 // Number and date formatting
@@ -31,7 +31,7 @@ $lang = array(
 'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
 'Pun include error'					=>  'Unable to process user include %s from template %s. There is no such file in neither the template directory nor in the user include directory',  
 'Settings saved'					=>  'Your settings have been saved.',
-'User deleted'						=>  'The user has been deleted.',
+'User deleted'						=>  'Użytkownik został usunięty.',
 'User failed'                       =>  'Failed to create user, no password was given.',
 'User created'                      =>  'User created',
 'Cache cleared'						=>  'The cache files have been removed.',
