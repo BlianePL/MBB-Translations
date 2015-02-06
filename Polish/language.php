@@ -14,96 +14,96 @@ $lang = array(
 //
 
 'lang_decimal_point'				=>	'.',
-'lang_thousands_sep'				=>	',',
+'lang_thousands_sep'				=>	' ',
 'lang_time'							=>	'H:i',
-'lang_date'							=>	'j M Y',
+'lang_date'							=>	'd.m.Y',
 
 //
 // Notices
 //
 
-'Bad request'						=>	'Bad request. The link you followed is incorrect, outdated or you\'re simply not allowed to hang around here.',
-'No view'							=>	'Nie posiadasz uprawnień by widzieć tą stronę.',
-'Bad referrer'						=>	'Bad HTTP_REFERER. You were referred to this page from an unauthorized source. If the problem persists please make sure that \'Base URL\' is correctly set in Admin/Options and that you are visiting the forum by navigating to that URL. More information regarding the referrer check can be found in the ModernBB documentation.',
-'No permission'						=>	'Nie posiadasz zezwolenia na dostęp do tej storny.',
-'No cookie'							=>	'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
-'Pun include extension'				=>  'Unable to process user include %s from template %s. "%s" files are not allowed',  
-'Pun include directory'				=>  'Unable to process user include %s from template %s. Directory traversal is not allowed',  
-'Pun include error'					=>  'Unable to process user include %s from template %s. There is no such file in neither the template directory nor in the user include directory',  
-'Settings saved'					=>  'Your settings have been saved.',
-'User deleted'						=>  'Użytkownik został usunięty.',
-'User failed'                       =>  'Failed to create user, no password was given.',
-'User created'                      =>  'User created',
-'Cache cleared'						=>  'The cache files have been removed.',
+'Bad request'						=>	'Błędne wywołanie. Odnośnik, który kliknąłeś jest nieprawidłowy, nieaktualny lub po prostu nie masz odpowiednich uprawnień żeby się tu kręcić.',
+'No view'							=>	'Nie masz uprawnień do przeglądania tej strony.',
+'Bad referrer'						=>	'Złe odniesienie HTTP_REFERER. Próbowałeś się dostać do tej strony z nieautoryzowanego źródła. Jeśli problem nadal występuje, to upewnij się, że \'Adres URL forum\' jest poprawnie ustawiony w menu Ustawienia ogólne/Administracja, oraz że odwiedzasz forum, korzystając z tego adresu URL. Więcej informacji o sprawdzaniu odniesień, możesz znaleźć w dokumentacji ModernBB.',
+'No permission'						=>	'Nie masz uprawnień do przeglądania tej strony.',
+'No cookie'							=>	'Wygląda na to że zalogowałeś się pomyślnie, jednakże nie udało się zapisać ciasteczka. Sprawdź swoje ustawienia i jeśli to możliwe, włącz zapisywanie ciasteczek dla tej strony.',
+'Pun include extension'				=>  'Nie można przetworzyć %s z szablonu %s. Pliki "%s" nie są dozwolone.',  
+'Pun include directory'				=>  'Nie można przetworzyć %s z szablonu %s. Przeglądanie katalogu nie jest dozwolone.',  
+'Pun include error'					=>  'Nie można przetworzyć %s z szablonu %s. Nie znaleziono takiego pliku zarówno w folderze \'template\', jak i w folderze \'include\'',  
+'Settings saved'					=>  'Pomyślnie zapisano ustawienia.',
+'User deleted'						=>  'Usunięto użytkownika.',
+'User failed'                       =>  'Nie udało się utworzyć użytkownika, ponieważ nie ustalono hasła.',
+'User created'                      =>  'Utworzono użytkownika',
+'Cache cleared'						=>  'Usunięto pliki pamięci podręcznej.',
 
 //
 // Miscellaneous
 //
 
 'Announcement'						=>	'Ogłoszenie',
-'Options'							=>	'Global settings',
-'Features'							=>	'Features',
-'Submit'							=>	'Submit', // "Name" of submit buttons
-'Search'							=>	'Search',
-'Ban message'						=>	'You are banned from this forum.',
-'Ban message 2'						=>	'The ban expires at the end of',
-'Ban message 3'						=>	'The administrator or moderator that banned you left the following message:',
-'Ban message 4'						=>	'Please direct any inquiries to the forum administrator at',
-'Never'								=>	'Never',
-'Today'								=>	'Today',
-'Yesterday'							=>	'Yesterday',
-'Info'								=>	'Info', // A common table header
-'Maintenance'						=>	'Maintenance',
-'Invalid email'						=>	'The email address you entered is invalid.',
-'Required'							=>	'(Required)',
-'required field'					=>	'is a required field in this form.', // For javascript form validation
-'Last post'							=>	'Last post',
-'by'								=>	'by', // As in last post by some user
-'New posts'							=>	'New posts', // The link that leads to the first new post
-'New posts info'					=>	'Go to the first new post in this topic.', // The popup text for new posts links
-'Username'							=>	'Username',
-'Password'							=>	'Password',
-'Send email'						=>	'Send email',
-'Moderated by'						=>	'Moderated by',
-'Registered table'					=>	'Registered',
-'Subject'							=>	'Subject',
-'Start typing'                      =>  'Start typing...',
-'Message'							=>	'Message',
-'Topic'								=>	'Topic',
+'Options'							=>	'Ustawienia ogólne',
+'Features'							=>	'Opcje',
+'Submit'							=>	'Wyślij', // "Name" of submit buttons
+'Search'							=>	'Szukaj',
+'Ban message'						=>	'Zostałeś zablokowany na tym forum.',
+'Ban message 2'						=>	'Blokada wygasa:',
+'Ban message 3'						=>	'Administrator lub moderator który cię zablokował, zostawił następującą wiadomość:',
+'Ban message 4'						=>	'Wszelkie zapytania proszę kierować do Administratora forum, na adres',
+'Never'								=>	'Nigdy',
+'Today'								=>	'Dziś',
+'Yesterday'							=>	'Wczoraj',
+'Info'								=>	'Informacja', // A common table header
+'Maintenance'						=>	'Konserwacja',
+'Invalid email'						=>	'Podany adres e-mail nie jest prawidłowy.',
+'Required'							=>	'(Wymagane)',
+'required field'					=>	'to pole jest wymagane.', // For javascript form validation
+'Last post'							=>	'Ostatni post',
+'by'								=>	'przez', // As in last post by some user
+'New posts'							=>	'Nowe posty', // The link that leads to the first new post
+'New posts info'					=>	'Idź do najnowszego posta w tym temacie.', // The popup text for new posts links
+'Username'							=>	'Nazwa użytkownika',
+'Password'							=>	'Hasło',
+'Send email'						=>	'Wyślij e-mail',
+'Moderated by'						=>	'Moderowane przez',
+'Registered table'					=>	'Data rejestracji',
+'Subject'							=>	'Temat',
+'Start typing'                      =>  'Zacznij wpisywać...',
+'Message'							=>	'Wiadomość',
+'Topic'								=>	'Wątek',
 'Forum'								=>	'Forum',
-'Posts table'						=>	'Posts',
-'Replies forum'						=>	'Replies',
-'Page'								=>	'Page %s',
+'Posts table'						=>	'Posty',
+'Replies forum'						=>	'Odpowiedzi',
+'Page'								=>	'Strona %s',
 'BBCode'							=>	'BBCode',
-'img tag'							=>	'[img] tag',
-'Smilies'							=>	'Smilies',
-'and'								=>	'and',
-'Image link'						=>	'image', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
-'wrote'								=>	'wrote', // For [quote]'s
-'Mailer'							=>	'%s Mailer', // As in "MyForums Mailer" in the signature of outgoing emails
+'img tag'							=>	'[img]',
+'Smilies'							=>	'Emotki',
+'and'								=>	'i',
+'Image link'						=>	'grafika', // This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
+'wrote'								=>	'napisał', // For [quote]'s
+'Mailer'							=>	'Automatyczna wiadomość wysłana z %s', // As in "MyForums Mailer" in the signature of outgoing emails
 'Spacer'							=>	'…', // Ellipsis for paginate
 
 //
 // Title
 //
 
-'Title'								=>	'Title',
-'Member'							=>	'Member',
+'Title'								=>	'Tytuł',
+'Member'							=>	'Użytkownik',
 'Moderator'							=>	'Moderator',
 'Administrator'						=>	'Administrator',
-'Banned'							=>	'Banned',
-'Guest'								=>	'Guest',
+'Banned'							=>	'Zablokowany',
+'Guest'								=>	'Gość',
 
 //
 // Stuff for include/parser.php
 //
 
-'BBCode error no opening tag'		=>	'[/%1$s] was found without a matching [%1$s]',
-'BBCode error invalid nesting'		=>	'[%1$s] was opened within [%2$s], this is not allowed',
-'BBCode error invalid self-nesting'	=>	'[%s] was opened within itself, this is not allowed',
-'BBCode error no closing tag'		=>	'[%1$s] was found without a matching [/%1$s]',
-'BBCode error empty attribute'		=>	'[%s] tag had an empty attribute section',
-'BBCode list size error'			=>	'Your list was too long to parse, please make it smaller!',
+'BBCode error no opening tag'		=>	'[/%1$s] brakuje otwarcia znacznika [%1$s]',
+'BBCode error invalid nesting'		=>	'Znacznik [%1$s] został otwarty wewnątrz [%2$s], to nie jest dozwolone',
+'BBCode error invalid self-nesting'	=>	'Znacznik [%s] został otwarty wewnątrz siebie, to nie jest dozwolone',
+'BBCode error no closing tag'		=>	'[%1$s] brakuje zamknięcia znacznika [/%1$s]',
+'BBCode error empty attribute'		=>	'Brak odpowiedniego atrybutu znacznika [%s]',
+'BBCode list size error'			=>	'Twoja lista jest zbyt długa do przetworzenia, skróć ją!',
 
 // Stuff for the navigator (top of every page)
 
@@ -111,87 +111,87 @@ $lang = array(
 // User menu
 //
 
-'Support'							=>	'Support',
-'Help'								=>	'Help',
-'Index'								=>	'Index',
-'User list'							=>	'User list',
-'Rules'								=>	'Rules',
-'Register'							=>	'Register',
-'Registered'						=>	'Registered since',
-'Login'								=>	'Login',
-'Profile'							=>	'Profile',
-'Logout'							=>	'Logout',
-'Backstage'							=>	'Backstage',
-'New posts header'					=>	'New',
-'Active topics'						=>	'Active',
-'Unanswered topics'					=>	'Unanswered',
-'Posted topics'						=>	'Posted',
-'Show new posts'					=>	'Find topics with new posts since your last visit.',
-'Show active topics'				=>	'Find topics with recent posts.',
-'Show unanswered topics'			=>	'Find topics with no replies.',
-'Show posted topics'				=>	'Find topics you have posted to.',
-'Mark as read'						=>	'Mark as read',
+'Support'							=>	'Wsparcie',
+'Help'								=>	'Pomoc',
+'Index'								=>	'Strona główna',
+'User list'							=>	'Lista użytkowników',
+'Rules'								=>	'Regulamin',
+'Register'							=>	'Zarejestruj się',
+'Registered'						=>	'Zarejestrowany',
+'Login'								=>	'Zaloguj',
+'Profile'							=>	'Profil',
+'Logout'							=>	'Wyloguj',
+'Backstage'							=>	'Zaplecze',
+'New posts header'					=>	'Nowe',
+'Active topics'						=>	'Aktywne',
+'Unanswered topics'					=>	'Bez odpowiedzi',
+'Posted topics'						=>	'Moje wątki',
+'Show new posts'					=>	'Pokaż wątki z nowymi postami od ostatniej wizyty.',
+'Show active topics'				=>	'Pokaż wątki z ostatnio dodanymi postami.',
+'Show unanswered topics'			=>	'Pokaż wątki bez odpowiedzi.',
+'Show posted topics'				=>	'Pokaż wątki w których brałem udział.',
+'Mark as read'						=>	'Oznacz jako przeczytane',
 'Title separator'					=>	' / ',
 
 //
 // Stuff for the page footer
 //
 
-'Moderate topic'					=>	'Moderate topic',
-'All'								=>	'Show all posts',
-'Move topic'						=>	'Move topic',
-'Open topic'						=>	'Open topic',
-'Close topic'						=>	'Close topic',
-'Unstick topic'						=>	'Unstick topic',
-'Stick topic'						=>	'Stick topic',
-'Moderate forum'					=>	'Moderate forum',
-'Powered by'						=>	'Powered by %s',
-'Thanks'							=>	'Thanks for using %s',
+'Moderate topic'					=>	'Moderacja wątku',
+'All'								=>	'Pokaż wszystkie posty',
+'Move topic'						=>	'Przenieś wątek',
+'Open topic'						=>	'Otwórz wątek',
+'Close topic'						=>	'Zamknij wątek',
+'Unstick topic'						=>	'Odepnij wątek',
+'Stick topic'						=>	'Podepnij wątek',
+'Moderate forum'					=>	'Moderacja forum',
+'Powered by'						=>	'Ta strona działa dzięki %s',
+'Thanks'							=>	'Dziękujemy za używanie %s',
 
 //
 // Debug information
 //
 
-'Debug table'						=>	'Debug information',
-'Querytime'							=>	'Generated in %1$s seconds, %2$s queries executed',
-'Memory usage'						=>	'Memory usage: %1$s',
-'Peak usage'						=>	'(Peak: %1$s)',
-'Query times'						=>	'Time (s)',
-'Query'								=>	'Query',
-'Total query time'					=>	'Total query time: %s',
+'Debug table'						=>	'Informacje debugowania',
+'Querytime'							=>	'Czas generowania: %1$s sekund, wykonano %2$s zapytań',
+'Memory usage'						=>	'Wykorzystanie pamięci: %1$s',
+'Peak usage'						=>	'(Szczyt: %1$s)',
+'Query times'						=>	'Czas (y)',
+'Query'								=>	'Zapytań',
+'Total query time'					=>	'Ogólny czas zapytań: %s',
 
 //
 // First run
 //
 
-'First run message'					=>	'Wow, it\'s great to have you here, welcome and thanks for joining us. We\'ve set up your account and you\'re ready to go. Through we like to point out some actions you might want to do first.',
-'Hi there'							=>	'Hi there, %s',
-'Welcome to'						=>	'Welcome to %s',
-'Change your avatar'				=>	'Change your avatar',
-'Extend profile'					=>	'Extend your details',
-'Get help'							=>	'Get help',
-'Do not show again'					=>	'Don\'t show again',
+'First run message'					=>	'Świetnie, że tutaj jesteś. Witamy i dziękujemy za przyłączenie się do nas. Twoje konto jest gotowe i możesz już z niego korzystać. Nie wiesz co dalej? Skorzystaj z naszych propozycji. &rarr;',
+'Hi there'							=>	'Witaj, %s',
+'Welcome to'						=>	'Witamy na %s',
+'Change your avatar'				=>	'Zmień zdjęcie',
+'Extend profile'					=>	'Dodaj więcej informacji',
+'Get help'							=>	'Przejrzyj pomoc',
+'Do not show again'					=>	'Nie pokazuj ponownie',
 
 //
 // For extern.php RSS feed
 //
 
-'RSS description'					=>	'The most recent topics at %s.',
-'RSS description topic'				=>	'The most recent posts in %s.',
-'RSS reply'							=>	'Re: ', // The topic subject will be appended to this string (to signify a reply)
-'RSS active topics feed'			=>	'RSS active topics feed',
-'Atom active topics feed'			=>	'Atom active topics feed',
-'RSS forum feed'					=>	'RSS forum feed',
-'Atom forum feed'					=>	'Atom forum feed',
-'RSS topic feed'					=>	'RSS topic feed',
-'Atom topic feed'					=>	'Atom topic feed',
+'RSS description'					=>	'Ostatnie wątki z %s.',
+'RSS description topic'				=>	'Ostatnie posty w %s.',
+'RSS reply'							=>	'Odp: ', // The topic subject will be appended to this string (to signify a reply)
+'RSS active topics feed'			=>	'Kanał RSS aktywne wątki',
+'Atom active topics feed'			=>	'Kanał Atom aktywne wątki',
+'RSS forum feed'					=>	'Kanał forum RSS',
+'Atom forum feed'					=>	'Kanał forum Atom',
+'RSS topic feed'					=>	'Kanał RSS wątki',
+'Atom topic feed'					=>	'Kanał Atom wątki',
 
 //
 // Admin related stuff in the header
 //
 
-'New reports'						=>	'There are new reports',
-'Maintenance mode enabled'			=>	'Maintenance mode is enabled!',
+'New reports'						=>	'Brak nowych zgłoszeń',
+'Maintenance mode enabled'			=>	'Tryb konserwacji jest włączony!',
 
 //
 // Units for file sizes
@@ -209,102 +209,102 @@ $lang = array(
 // Language for installation
 //
 
-'Choose install language'		=>	'Choose the install script language',
-'Choose install language info'	=>	'The language used for this install script. The default language used for the board itself can be set below.',
-'Install language'				=>	'Install language',
-'Change language'				=>	'Change language',
-'Already installed'				=>	'It seems like ModernBB is already installed. You should go <a href="index.php">here</a> instead.',
-'You are running error'			=>	'You are running %1$s version %2$s. ModernBB %3$s requires at least %1$s %4$s to run properly. You must upgrade your %1$s installation before you can continue.',
-'My ModernBB Forum'				=>	'My ModernBB Forum',
-'Description'					=>	'You can do anything',
-'Username 1'					=>	'Usernames must be at least 2 characters long.',
-'Username 2'					=>	'Usernames must not be more than 25 characters long.',
-'Username 3'					=>	'The username guest is reserved.',
-'Username 4'					=>	'Usernames may not be in the form of an IP address.',
-'Username 5'					=>	'Usernames may not contain all the characters \', " and [ or ] at once.',
-'Username 6'					=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses.',
-'Short password'				=>	'Passwords must be at least 6 characters long.',
-'Passwords not match'			=>	'Passwords do not match.',
-'Wrong email'					=>	'The administrator email address you entered is invalid.',
-'No board title'				=>	'You must enter a board title.',
-'Error default language'		=>	'The default language chosen doesn\'t seem to exist.',
-'Error default style'			=>	'The default style chosen doesn\'t seem to exist.',
-'No DB extensions'				=>	'PHP needs to have support for either MySQL or SQLite to run ModernBB to be installed. Non is available, through.',
-'Administrator username'		=>	'Username',
-'Administrator password 1'		=>	'Administrator password 1',
-'Administrator password 2'		=>	'Administrator password 2',
-'Administrator email'			=>	'Email',
-'Board title'					=>	'Board title',
-'Base URL'						=>	'No trailing slash',
-'Required field'				=>	'is a required field in this form.',
-'ModernBB Installation'			=>	'ModernBB Installation',
-'Install'						=>	'Install ModernBB %s',
-'Errors'						=>	'The following errors need to be corrected:',
-'Database setup'				=>	'Database setup',
-'Select database'				=>	'Select your database type',
-'Info 1'						=>	'What database do you want to use?',
-'Database type'					=>	'Type',
-'Info 2'						=>	'Where\'s the server?',
-'Info 3'						=>	'The database name',
-'Database server hostname'		=>	'Server hostname',
-'Database name'					=>	'Name',
-'Database enter informations'	=>	'Enter your database username and password',
-'Database username'				=>	'Username',
-'Info 4'						=>	'Your database username',
-'Database password'				=>	'Password',
-'Info 5'						=>	'Set for more ModernBB installation in this database',
-'Table prefix'					=>	'Table prefix',
-'Administration setup'			=>	'Administration setup',
-'Info 6'						=>	'2 to 25 characters long',
-'Info 7'						=>	'At least 6 characters long',
-'Confirm password'				=>	'Confirm password',
-'Board setup'					=>	'Board setup',
-'Board description'				=>	'Board description',
-'Appearance'					=>	'Appearance',
-'Default language'				=>	'Default language',
-'Default style'					=>	'Default style',
-'Start install'					=>	'Start install',
-'DB type not valid'				=>	'\'%s\' is not a valid database type',
-'Table prefix error'			=>	'The table prefix \'%s\' contains illegal characters or is too long. The prefix may contain the letters a to z, any numbers and the underscore character. They must however not start with a number. The maximum length is 40 characters. Please choose a different prefix',
-'Prefix reserved'				=>	'The table prefix \'sqlite_\' is reserved for use by the SQLite engine. Please choose a different prefix',
-'Existing table error'			=>	'A table called \'%susers\' is already present in the database \'%s\'. This could mean that ModernBB is already installed or that another piece of software is installed and is occupying one or more of the table names ModernBB requires. If you want to install multiple copies of ModernBB in the same database, you must choose a different table prefix',
-'InnoDB off'					=>	'InnoDB does not seem to be enabled. Please choose a database layer that does not have InnoDB support, or enable InnoDB on your MySQL server',
-'Administrators'				=>	'Administrators',
-'Moderators'					=>	'Moderators',
-'Guests'						=>	'Guests',
-'Members'						=>	'Members',
-'New member'					=>	'New member',
-'Maintenance message'			=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
-'Alert cache'					=>	'<strong>The cache directory is currently not writable!</strong> In order for ModernBB to function properly, the directory <em>%s</em> must be writable by PHP. Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
-'Alert avatar'					=>	'<strong>The avatar directory is currently not writable!</strong> If you want users to be able to upload their own avatar images you must see to it that the directory <em>%s</em> is writable by PHP. You can later choose to save avatar images in a different directory (see Admin/Options). Use chmod to set the appropriate directory permissions. If in doubt, chmod to 0777.',
-'Alert upload'					=>	'<strong>File uploads appear to be disallowed on this server!</strong> If you want users to be able to upload their own avatar images you must enable the file_uploads configuration setting in PHP. Once file uploads have been enabled, avatar uploads can be enabled in Administration/Options/Features.',
-'ModernBB has been installed'	=>	'ModernBB has been installed. To finalize the installation please follow the instructions below.',
-'Info 8'						=>	'To finalize the installation, you need to click on the button below to download a file called config.php. You then need to upload this file to the root directory of your ModernBB installation.',
-'Info 9'						=>	'Once you have uploaded config.php, ModernBB will be fully installed! At that point, you may <a href="index.php">go to the forum index</a>.',
-'Download config.php file'		=>	'Download config.php file',
-'ModernBB fully installed'		=>	'ModernBB has been fully installed! You may now <a href="index.php">go to the forum index</a>.',
+'Choose install language'		=>	'Wybierz język instalacji',
+'Choose install language info'	=>	'Język, który będzie wykorzystywany podczas instalacji. Domyślny język używany na forum można wybrać poniżej.',
+'Install language'				=>	'Język instalacji',
+'Change language'				=>	'Zmień język',
+'Already installed'				=>	'Wygląda na to, że już zainstalowano ModernBB. Zapraszamy na <a href="index.php">stronę główną</a> forum.',
+'You are running error'			=>	'Na serwerze uruchomiony jest %1$s w wersji %2$s. Do prawidłowego działania ModernBB %3$s wymaga co najmniej %1$s %4$s. Musisz zaktualizować %1$s aby kontynuować.',
+'My ModernBB Forum'				=>	'Moje Forum ModernBB',
+'Description'					=>	'Możesz robić wszystko',
+'Username 1'					=>	'Nazwa użytkownika musi się składać z co najmniej 2 znaków.',
+'Username 2'					=>	'Nazwa użytkownika nie może być dłuższa niż 25 znaków.',
+'Username 3'					=>	'Nazwa użytkownika \'gość\' jest zarezerwowana.',
+'Username 4'					=>	'Nazwy użytkowników nie mogą być w postaci adresu IP.',
+'Username 5'					=>	'Nazwy użytkowników nie mogą zawierać znaków \', " i [ lub ].',
+'Username 6'					=>	'Nazwy użytkowników nie mogą zawierać żadnych znaczników formatujących (BBCode) używanych na tym forum.',
+'Short password'				=>	'Hasło musi się składać z co najmniej 6 znaków.',
+'Passwords not match'			=>	'Podane hasła nie są takie same.',
+'Wrong email'					=>	'Wpisany adres administratora nie jest prawidłowy.',
+'No board title'				=>	'Musisz wpisać nazwę forum.',
+'Error default language'		=>	'Nie znaleziono wybranego języka domyślnego.',
+'Error default style'			=>	'Nie znaleziono wybranego stylu domyślnego.',
+'No DB extensions'				=>	'Instalacja ModernBB wymaga, żeby środowisko PHP wspierało MySQL lub SQLite. W chwili obecnej, nie można dokonać instalacji.',
+'Administrator username'		=>	'Nazwa użytkownika',
+'Administrator password 1'		=>	'Hasło administratora 1',
+'Administrator password 2'		=>	'Hasło administratora 2',
+'Administrator email'			=>	'E-mail',
+'Board title'					=>	'Nazwa forum',
+'Base URL'						=>	'Bez ukośnika',
+'Required field'				=>	'to pole jest wymagane.',
+'ModernBB Installation'			=>	'Instalacja ModernBB',
+'Install'						=>	'Instaluj ModernBB %s',
+'Errors'						=>	'Wystąpiły błędy, które muszą być usunięte:',
+'Database setup'				=>	'Ustawienia bazy danych',
+'Select database'				=>	'Wybierz typ bazy',
+'Info 1'						=>	'Jakiej bazy danych chcesz użyć?',
+'Database type'					=>	'Typ',
+'Info 2'						=>	'Gdzie jest serwer?',
+'Info 3'						=>	'Nazwa bazy danych',
+'Database server hostname'		=>	'Serwer hosta',
+'Database name'					=>	'Nazwa',
+'Database enter informations'	=>	'Wpisz użytkownika i hasło do bazy danych',
+'Database username'				=>	'Użytkownik',
+'Info 4'						=>	'Nazwa użytkownika bazy danych',
+'Database password'				=>	'Hasło bazy danych',
+'Info 5'						=>	'Pomocne, kiedy chcesz mieć klika instalacji ModernBB w tej bazie danych',
+'Table prefix'					=>	'Prefiks tabeli',
+'Administration setup'			=>	'Ustawienia administracji',
+'Info 6'						=>	'Długość od 2 do 25 znaków',
+'Info 7'						=>	'Co najmniej 6 znaków',
+'Confirm password'				=>	'Potwierdź hasło',
+'Board setup'					=>	'Ustawienia forum',
+'Board description'				=>	'Opis forum',
+'Appearance'					=>	'Wygląd',
+'Default language'				=>	'Domyślny język',
+'Default style'					=>	'Domyślny styl',
+'Start install'					=>	'rozpocznij instalację',
+'DB type not valid'				=>	'\'%s\' jest nieprawidłowym typem bazy danych',
+'Table prefix error'			=>	'Prefiks tabeli \'%s\' zawiera niedozwolone znaki lub jest za długi. Prefiks może zawierać litery od a do z, cyfry oraz znak podkreślenia. Prefiks nie może rozpoczynać się cyfrą. Maksymalna długość prefiksu to 40 znaków. Proszę wybrać inny prefiks.',
+'Prefix reserved'				=>	'Prefiks tabeli \'sqlite_\' jest zarezerwowany dla silnika SQLite. Proszę wybrać inny prefiks.',
+'Existing table error'			=>	'Tabela \'%susers\' jest już obecna w bazie danych \'%s\'. Może to oznaczać, że ModernBB już jest zainstalowany lub zainstalowano inny program, który zajął jedną lub więcej nazw tabel, które są wymagane przez ModernBB. Jeśli chcesz mieć kilka kopii ModernBB w tej samej bazie danych, musisz wybrać inny prefiks tabeli.',
+'InnoDB off'					=>	'Wygląda na to, że InnoDB nie jest włączone. Wybierz bazę danych, która nie wymaga obsługi InnoDB albo włącz obsługę InnoDB na twoim serwerze MySQL',
+'Administrators'				=>	'Administratorzy',
+'Moderators'					=>	'Moderatorzy',
+'Guests'						=>	'Goście',
+'Members'						=>	'Użytkownicy',
+'New member'					=>	'Nowy użytkownik',
+'Maintenance message'			=>	'Forum jest aktualnie wyłączone w celach konserwacyjnych. Zapraszamy za klika minut.',
+'Alert cache'					=>	'<strong>Folder pamięci podręcznej nie jest zapisywalny!</strong> Do prawidłowego działania ModernBB wymagane jest, żeby folder <em>%s</em> był zapisywalny. Użyj chmod żeby ustawić prawidłowe uprawnienia do tego folderu. Jeśli masz wątpliwości, ustaw chmod 0777.',
+'Alert avatar'					=>	'<strong>Folder do przechowywania zdjęć profilowych użytkowników nie jest zapisywalny!</strong> Jeśli chcesz, żeby użytkownicy mogli dodawać swoje zdjęcia profilowe, folder <em>%s</em> musi być zapisywalny. Możesz później wybrać inny folder do zapisywania zdjęć profilowych (zobacz Ustawienia ogólne/Administracja). Użyj chmod żeby ustawić prawidłowe uprawnienia do tego folderu. Jeśli masz wątpliwości, ustaw chmod 0777.',
+'Alert upload'					=>	'<strong>Wygląda na to, że dodawanie plików nie jest dozwolone na tym serwerze!</strong> Jeśli chcesz, żeby użytkownicy mogli dodawać swoje zdjęcia profilowe, musisz włączyć opcję file_uploads w PHP. Po tym, jak będzie to zrobione, dodawanie zdjęć profilowych można włączyć w Ustawienia ogólne/Administracja.',
+'ModernBB has been installed'	=>	'Zainstalowano ModernBB. Żeby ukończyć instalację, postępuj według instrukcji zamieszczonej poniżej.',
+'Info 8'						=>	'Żeby ukończyć instalację, musisz kliknąć na przycisk poniżej i pobrać plik config.php. Następnie, musisz ten plik wrzucić do głównego folderu instalacji ModernBB.',
+'Info 9'						=>	'Po tym jak dodasz plik config.php, instalacja ModernBB będzie w pełni ukończona. Jeśli już to zrobiłeś, możesz przejść na <a href="index.php">główną stronę</a> forum.',
+'Download config.php file'		=>	'Pobierz plik config.php',
+'ModernBB fully installed'		=>	'Pomyślnie zainstalowano ModernBB! Możesz teraz przejść na <a href="index.php">główną stronę</a> forum.',
 
 //
 // Language for updating
 //
 
-'Update ModernBB'				=>	'Update ModernBB',
-'Down'							=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
+'Update ModernBB'				=>	'Aktualizuj ModernBB',
+'Down'							=>	'Forum jest aktualnie wyłączone w celach konserwacyjnych. Zapraszamy za klika minut.',
 
-'Version mismatch error'		=>	'Version mismatch. The database \'%s\' doesn\'t seem to be running a ModernBB database schema supported by this update script.',
-'No update error'				=>	'Your forum is already as up-to-date as this script can make it',
+'Version mismatch error'		=>	'Niezgodność wersji. Baza danych \'%s\' nie odpowiada schematowi bazy danych ModernBB, wspieranemu przez ten skrypt aktualizacji.',
+'No update error'				=>	'Twoje forum nie wymaga aktualizacji, ponieważ jest już zainstalowana najnowsza wersja ModernBB',
 
-'Start update'					=>	'Start update',
-'Correct errors'				=>	'The following errors need to be corrected:',
-'Successfully updated'			=>	'Your forum database was successfully updated. You may now %s.',
-'go to index'					=>	'go to the forum index',
+'Start update'					=>	'Rozpocznij aktualizację',
+'Correct errors'				=>	'Wystąpiły błędy, które muszą być usunięte:',
+'Successfully updated'			=>	'Baza danych forum, została pomyślnie zaktualizowana. Możesz teraz %s.',
+'go to index'					=>	'przejść na stronę główną',
 
-'Preparsing item'				=>	'Preparsing %1$s %2$s …',
-'Rebuilding index item'			=>	'Rebuilding index for %1$s %2$s',
+'Preparsing item'				=>	'Przetwarzanie %1$s %2$s …',
+'Rebuilding index item'			=>	'Przebudowa indeksu dla %1$s %2$s',
 
-'post'							=>	'post',
-'topic'							=>	'topic',
-'signature'						=>	'signature',
+'post'							=>	'postów',
+'topic'							=>	'wątków',
+'signature'						=>	'podpis',
 
 // Language for frontend
 
@@ -312,1192 +312,1195 @@ $lang = array(
 // Language for delete.php
 //
 
-'Delete post'			=>	'Delete post',
-'Topic warning'			=>	'Warning! This is the first post in the topic, the whole topic will be permanently deleted.',
-'Delete info'			=>	'The post you have chosen to delete is set out below for you to review before proceeding.',
-'Reply by'				=>	'Reply by %s - %s',
-'Topic by'				=>	'Topic started by %s - %s',
-'Delete'				=>	'Delete',
+'Delete post'			=>	'Usuń posta',
+'Topic warning'			=>	'Ostrzeżenie! To jest pierwszy post w tym wątku, więc również cały wątek będzie trwale usunięty.',
+'Delete info'			=>	'Poniżej znajduje się podgląd posta, wybranego do usunięcia.',
+'Reply by'				=>	'Odpowiedź udzielona przez %s - %s',
+'Topic by'				=>	'Wątek rozpoczęty przez %s - %s',
+'Delete'				=>	'Usuń',
 
 //
 // Language for help.php
 //
 
-'produces'				=>	'produces',
+'produces'				=>	'&rarr;',
 
-'BBCode info'			=>	'BBCode is a collection of tags that are used to change the look of text in this forum. Below you can find all the available BBCodes and how to use them. Administrators have the ability to disable BBCode. You can tell if BBCode is disabled whenever you post a message or edit your signature.',
+'BBCode info'			=>	'BBCode jest to zbiór znaczników, które są używane do zmiany wyglądu tekstu na tym forum. Poniżej można znaleźć wszystkie dostępne BBCode oraz sposób ich użycia. Administratorzy mają możliwość wyłączenia korzystania z BBCode. Podczas pisania posta lub edycji swojego podpisu, można zobaczyć, czy korzystanie z danego BBCode jest możliwe.',
 
-'Text style'			=>	'Text style',
-'Text style info'		=>	'The following tags change the appearance of text:',
-'Bold text'				=>	'Bold text',
-'Underlined text'		=>	'Underlined text',
-'Italic text'			=>	'Italic text',
-'Strike-through text'	=>	'Strike-through text',
-'Red text'				=>	'Red text',
-'Blue text'				=>	'Blue text',
-'Heading text'			=>	'Heading text',
-'Inserted text'			=>	'Inserted text',
-'Sub text'				=>	'Subscript text',
-'Sup text'				=>	'Superscript text',
+'Text style'			=>	'Styl tekstu',
+'Text style info'		=>	'Poniższe znaczniki zmieniają wygląd tekstu:',
+'Bold text'				=>	'Tekst pogrubiony',
+'Underlined text'		=>	'Tekst podkreślony',
+'Italic text'			=>	'Tekst pochylony',
+'Strike-through text'	=>	'Tekst przekreślony',
+'Red text'				=>	'Czerwony tekst',
+'Blue text'				=>	'Niebieski tekst',
+'Heading text'			=>	'Tekst nagłówka',
+'Inserted text'			=>	'Tekst dodany',
+'Sub text'				=>	'Indeks dolny',
+'Sup text'				=>	'Indeks górny',
 
 'Multimedia'			=>  'Multimedia',
-'Links info'			=>	'You can create links to other documents or to email addresses using the following tags:',
-'My email address'		=>	'My email address',
-'Images info'			=>	'If you want to display an image you can use the img tag. The text appearing after the "=" sign in the opening tag is used for the alt attribute and should be included whenever possible.',
+'Links info'			=>	'Możesz tworzyć odnośniki do innych stron, dokumentów lub adresów e-mail korzystając z poniższych znaczników:',
+'My email address'		=>	'Mój adres e-mail',
+'Images info'			=>	'Jeśli chcesz dodać do posta grafikę, możesz użyć znacznika img. Tekst który jest za znakiem "=", jest to tekst alternatywny (wyświetlany w chwili gdy grafika się nie załaduje) i powinien być dołączany tam gdzie to tylko możliwe.',
 'ModernBB bbcode test'  =>  'ModernBB BBCode Test',
-'Video info'			=>  'ModernBB supports embedding from DailyMotion, Vimeo and YouTube. With the BBCode below, you can embed one of those services videos.',
-'Video link'			=>  'Put the link to the video here', 
+'Video info'			=>  'ModernBB obsługuje dodawanie filmów z DailyMotion, Vimeo i YouTube. Używając tego BBCode, możesz dodać film ze wspomnianych wcześniej serwisów.',
+'Video link'			=>  'Wstaw tutaj odnośnik do filmu', 
 
-'Quotes'				=>	'Quotes',
-'Quotes info'			=>	'If you want to quote someone, you should use the quote tag.',
-'Quotes info 2'			=>	'If you don\'t want to quote anyone in particular, you can use the quote tag without specifying a name. If a username contains the characters [ or ] you can enclose it in quote marks.',
-'Quote text'			=>	'This is the text I want to quote.',
-'produces quote box'	=>	'produces a quote box like this:',
+'Quotes'				=>	'Cytowanie',
+'Quotes info'			=>	'Jeśli chcesz kogoś zacytować, powinieneś użyć znacznika quote.',
+'Quotes info 2'			=>	'Jeśli nie chcesz cytować kogoś konkretnego, możesz użyć znacznika quote bez określania nazwy użytkownika. Jeśli nazwa użytkownika zawiera znaki [ lub ], możesz ją umieścić między znakami cudzysłowu.',
+'Quote text'			=>	'To jest tekst który chcę zacytować.',
+'produces quote box'	=>	'daje w efekcie taką ramkę z cytatem:',
 
-'Code'					=>	'Code',
-'Code info'				=>	'When displaying source code you should make sure that you use the code tag. Text displayed with the code tag will use a monospaced font and will not be affected by other tags.',
-'Code text'				=>	'This is some code.',
-'produces code box'		=>	'produces a code box like this:',
+'Code'					=>	'Kod',
+'Code info'				=>	'Kiedy chcesz wyświetlić jakiś kod, powinieneś użyć znacznika code. Tekst wyświetlany za pomocą tego znacznika, będzie używał czcionki o stałej szerokości oraz nie będzie formatowany przez inne znaczniki.',
+'Code text'				=>	'Jakiś tam kod.',
+'produces code box'		=>	'daje w efekcie takie wyświetlanie kodu:',
 
-'Lists'					=>	'Lists',
-'List info'				=>	'To create a list you can use the list tag. You can create 2 types of lists using the list tag.',
-'List text 1'			=>	'Example list item 1.',
-'List text 2'			=>	'Example list item 2.',
-'List text 3'			=>	'Example list item 3.',
-'produces list'			=>	'produces a bulleted list.',
-'produces decimal list'	=>	'produces a numbered list.',
+'Lists'					=>	'Listy',
+'List info'				=>	'Żeby dodać listę, możesz użyć znacznika list. Możesz stworzyć 2 rodzaje list, używając tego znacznika.',
+'List text 1'			=>	'Przykładowa pozycja listy 1.',
+'List text 2'			=>	'Przykładowa pozycja listy 2.',
+'List text 3'			=>	'Przykładowa pozycja listy 3.',
+'produces list'			=>	'daje listę punktowaną.',
+'produces decimal list'	=>	'daje listę numerowaną.',
 
-'Bold'					=>	'Bold',
-'Underline'				=>	'Underline',
-'Italic'				=>	'Italic',
-'Strike'				=>	'Strike',
-'URL'					=>	'URL',
-'List'					=>	'List',
-'List item'				=>	'List item',
-'Heading'				=>	'Heading',
-'Inline code'			=>	'Inline code',
-'Superscript'			=>	'Superscript',
-'Subscript'				=>	'Subscript',
-'Video'					=>	'Video',
-'Image'					=>	'Image',
+'Bold'					=>	'Pogrubienie',
+'Underline'				=>	'Podkreślenie',
+'Italic'				=>	'Kursywa',
+'Strike'				=>	'Przekreślenie',
+'URL'					=>	'Odnośnik',
+'List'					=>	'Lista',
+'List item'				=>	'Punkt listy',
+'Heading'				=>	'Nagłówek',
+'Inline code'			=>	'Kod',
+'Superscript'			=>	'Indeks górny',
+'Subscript'				=>	'Indeks dolny',
+'Video'					=>	'Wideo',
+'Image'					=>	'Grafika',
 
-'Smilies info'			=>	'If enabled, the forum can convert a series of smilies to graphical representations. The following smilies you can use are:',
+'Smilies info'			=>	'Jeśli włączono tę funkcję, forum może zamieniać emotki tekstowe na ich graficzne odpowiedniki. Można używać poniższych emotikonek:',
 
-'General use'					=>	'General use',
-'General use info'				=>	'Explains some of the basics on how to work with this forum software.',
-'Forums and topics'				=>	'Forums and topics',
-'Labels question'				=>	'What do the labels in front of topic titles mean?',
-'Labels info'					=>	'You\'ll see that some of the topics are labeled, different labels have different meanings.',
-'Label'							=>	'Label',
-'Explanation'					=>	'Explanation',
-'Sticky explanation'			=>	'Sticky topics are usually important topics which you should read. It\'s worth it to take a look there.',
-'Closed explanation'			=>	'When a you see a closed label, it means you can\'t post on that topic any more, unless you have a permission that overwrites this. The topic is still available to read, through.',
-'Moved explanation'				=>	'This topic has been moved to another forum. Admins and moderators can choose to show this notification, or simply not show it. The original forum where this topic was located in, won\'t show any topic stats anymore.',
-'Star'							=>	'Star',
-'Star explanation'				=>	'You\'re following this topic, they will show up in you\'re subscription list.',
-'Posted explanation'			=>	'This label means you have made a post in this topic.',
-'Content question'				=>	'Smilies, signatures, avatars and images are not visible?',
-'Content answer'				=>	'You can change the behavior of the topic view in your profile settings. There you can enable smilies, signatures, avatars and images in posts, but they should be enabled by default unless your forum admin has disabled those features. You can see if images and smilies are disabled below the editor. If the labels have a red background, those features aren\'t available for you.',
-'Topics question'				=>	'Why can\'t I see any topics or forums?',
-'Topics answer'					=>	'You might not have the correct permissions to do so, ask the forum administrator for more help.',
-'Profile question'				=>	'Why can\'t I see any profiles?',
-'Profile answer'				=>	'You might not have the correct permissions to do so, ask the forum administrator for more help.',
-'Information question'			=>	'My profile doesn\'t contain as much as others?',
-'Information answer'			=>	'You\'re profile will only display fields that are enabled and filled in on your profile personality page. You might want to see if you missed some fields.',
-'Advanced search question'		=>	'Are there more options to search?',
-'Advanced search answer'		=>	'When you go to the search page, you\'ll find yourself on a page with 1 search box. Below that search box there is a link to Advanced search, here you can find more search options! This feature may not be available on your device, if disabled by the forum admin.',
-'More search question'			=>	'Why can\'t search in more then 1 forum at once?',
-'More search answer'			=>	'You might not have the correct permissions to do so, ask the forums administrator for more help.',
-'Moderating'					=>	'Moderating',
-'Moderating info'				=>	'Admins and moderators need help sometimes, too! The basics of moderating are explained here.',
-'Moderate forum question'		=>	'How do I moderate a forum?',
-'Moderate forum answer'			=>	'The moderation options are available at the bottom of the page. Those features aren\'t available for all moderators. When you click this button, you will be send to a page where you can manage the current forum. From there, you can move, delete, merge, close and open multiple topics at once.',
-'Moderate topic question'		=>	'How do I moderate a topic?',
-'Moderate topic answer 1'		=>	'The moderation options are available at the bottom of the page. Those features aren\'t available for all moderators. When you click this button, you will be send to a page where you can manage the current topic. From there, you can select multiple post to delete or split from the current topic at once.',
-'Moderate topic answer 2'		=>	'Next to the "Moderate topic" button, you can find options to move, open or close the topic. You can also make it a sticky topic from there, or unstick it.',
-'Moderate user question'		=>	'How do I moderate an user?',
-'Moderate user answer 1'		=>	'Moderating options are available in the users profile. You can find the moderation options under "Administration" in the users profile menu. Those features aren\'t available for all moderators.',
-'Moderate user answer 2'		=>	'The Administration page allow you to check if the user has an admin note, and you can also change that note if required. You can also change the post count of the user. At this page, the user can also be given moderator permissions on a per-forum base, through the user must have a moderator account to be able to actually use those permissions.',
-'Moderate user answer 3'		=>	'Finally, you can ban or delete a user from his profile. If you want to ban and/or delete multiple users at once, you\'re probably better off with the advanced user management features in the Backstage.',
+'General use'					=>	'Użytkowanie',
+'General use info'				=>	'Podstawowe informacje o korzystaniu z tego forum.',
+'Forums and topics'				=>	'Fora i wątki',
+'Labels question'				=>	'Co oznaczają etykiety widoczne przed nazwami wątków?',
+'Labels info'					=>	'Niektóre z wątków są oznaczone etykietami, każda z nich oznacza coś innego.',
+'Label'							=>	'Etykieta',
+'Explanation'					=>	'Wyjaśnienie',
+'Sticky explanation'			=>	'Przypięte wątki są zwykle ważne i oznacza to, że trzeba się z nimi zapoznać. Zwykle warto do nich zajrzeć.',
+'Closed explanation'			=>	'Jeśli przy nazwie wątku pojawia się etykieta \'Zamknięty\', oznacza to, że w takim temacie nie można dodawać postów, chyba że posiada się uprawnienia, które na to pozwalają. Jednakże nadal można przeglądać zawartość takiego wątku',
+'Moved explanation'				=>	'Ten wątek został przeniesiony do innego forum. Administratorzy i Moderatorzy  mogą wybrać, czy zostawiać takie powiadomienie czy też nie informować o przeniesieniu wątku. Taki przeniesiony wątek, nie będzie wykazywany w statystykach forum, w którym został pierwotnie umieszczony.',
+'Star'							=>	'Gwiazdka',
+'Star explanation'				=>	'Obserwujesz ten wątek, będzie on widoczny na liście rzeczy które obserwujesz.',
+'Posted explanation'			=>	'Ta etykieta oznacza, że napisałeś posta w tym temacie.',
+'Content question'				=>	'Dlaczego nie widzę emotek, podpisów, zdjęć profilowych i grafik?',
+'Content answer'				=>	'Możesz zmienić swoje preferencje wyświetlania wątków, w ustawieniach swojego profilu. Możesz tam włączyć wyświetlanie emotek, podpisów, zdjęć profilowych oraz grafik w postach. Jeśli administrator nie wyłączył tych funkcji, domyślnie powinny być one aktywne. To, czy te funkcje są aktywne, możesz poznać po etykietach wyświetlanych pod edytorem. Jeśli mają czerwone tło, oznacza to, że te funkcje nie są dla ciebie dostępne.',
+'Topics question'				=>	'Dlaczego nie widzę żadnych wątków i forów?',
+'Topics answer'					=>	'Być może nie masz do tego odpowiednich uprawnień. Jeśli chcesz uzyskać więcej informacji, zapytaj się Administratora.',
+'Profile question'				=>	'Dlaczego nie widzę żadnych profili?',
+'Profile answer'				=>	'Być może nie masz do tego odpowiednich uprawnień. Jeśli chcesz uzyskać więcej informacji, zapytaj się Administratora.',
+'Information question'			=>	'Dlaczego w moim profilu nie wyświetla się tyle informacji co w innych?',
+'Information answer'			=>	'W twoim profilu wyświetlą się tylko te pola, które są włączone i wypełnione. Może powinieneś sprawdzić czy czegoś nie pominąłeś?',
+'Advanced search question'		=>	'Czy jest więcej opcji wyszukiwania?',
+'Advanced search answer'		=>	'Kiedy udasz się na stronę wyszukiwania, znajdziesz tam jedno pole, w którym możesz wpisać frazy do wyszukania. tuż pod nim, znajduje się odnośnik do \'Wyszukiwania zaawansowanego\', gdzie możesz znaleźć więcej opcji wyszukiwania. Ta opcja może być niedostępna, jeśli Administrator forum zdecydował się ją wyłączyć.',
+'More search question'			=>	'Dlaczego nie mogę szukać na więcej niż jednym forum jednocześnie?',
+'More search answer'			=>	'Być może nie masz do tego odpowiednich uprawnień. Jeśli chcesz uzyskać więcej informacji, zapytaj się Administratora.',
+'Moderating'					=>	'Moderacja',
+'Moderating info'				=>	'Czasami administratorzy i moderatorzy też potrzebują pomocy. Wyjaśniamy tutaj podstawy moderacji.',
+'Moderate forum question'		=>	'Jak mogę moderować forum?',
+'Moderate forum answer'			=>	'Opcje moderacyjne są dostępne w dolnej części strony. Nie wszystkie opcje są dostępne dla wszystkich moderatorów. Kiedy klikniesz na ten przycisk, zostaniesz przeniesiony na stronę, gdzie będziesz mógł zarządzać bieżącym forum. Możesz tam przenosić, usuwać, łączyć, zamykać i otwierać wiele wątków jednocześnie.',
+'Moderate topic question'		=>	'Jak mogę moderować wątek?',
+'Moderate topic answer 1'		=>	'Opcje moderacyjne są dostępne w dolnej części strony. Nie wszystkie opcje są dostępne dla wszystkich moderatorów. Kiedy klikniesz na ten przycisk, zostaniesz przeniesiony na stronę, gdzie będziesz mógł zarządzać bieżącym wątkiem. Możesz tam wybierać wiele postów jednocześnie, celu ich usunięcia lub wydzielenia z bieżącego wątku.',
+'Moderate topic answer 2'		=>	'Obok przycisku "Moderacja wątku", możesz znaleźć opcje do przenoszenia, otwierania bądź zamykania wątku. Możesz tu także podpinać i odpinać wątki.',
+'Moderate user question'		=>	'Jak mogę zarządzać użytkownikiem?',
+'Moderate user answer 1'		=>	'Zarządzanie użytkownikiem jest dostępne z poziomu jego profilu, pod zakładką o takiej samej nazwie. Nie wszystkie opcje są dostępne dla wszystkich moderatorów.',
+'Moderate user answer 2'		=>	'Strona zarządzania użytkownikiem, pozwala na sprawdzenie notatek o użytkowniku, oraz ich ewentualna zmianę. Można tu także zmienić wyświetlaną wartość liczby postów oraz nadać uprawnienia Moderatora, w oparciu o fora. Jednakże, żeby te uprawnienia zadziałały, użytkownik musi mieć konto w grupie Moderator.',
+'Moderate user answer 3'		=>	'W końcu, możesz zablokować bądź usunąć konto użytkownika z poziomu jego profilu. Jeśli chcesz zablokować i/lub usunąć kliku użytkowników jednocześnie, wygodniej będzie skorzystać z narzędzi zarządzania użytkownikami, znajdującymi się na Zapleczu.',
 
 //
 // Language for index.php
 //
 
-'Topics'		=>	'Topics',
-'Link to'		=>	'Link to:', // As in "Link to: http://modernbb.be/"
-'Empty board'	=>	'Board is empty.',
-'Newest user'	=>	'Newest user: %s',
-'Users online'	=>	'Users online: %s',
-'Guests online'	=>	'Guests online: %s',
-'No of users'	=>	'Total users: %s',
-'No of topics'	=>	'Total topics: %s',
-'No of post'	=>	'Total posts: %s',
+'Topics'		=>	'Wątki',
+'Link to'		=>	'Odnośnik:', // As in "Link to: http://modernbb.be/"
+'Empty board'	=>	'Forum jest puste.',
+'Newest user'	=>	'Najnowszy użytkownik: %s',
+'Users online'	=>	'Użytkownicy online: %s',
+'Guests online'	=>	'Goście online: %s',
+'No of users'	=>	'Użytkowników: %s',
+'No of topics'	=>	'Wątków: %s',
+'No of post'	=>	'Postów: %s',
 'Online'		=>	'Online:', // As in "Online: User A, User B etc."
-'Board stats'	=>	'Board statistics',
+'Board stats'	=>	'Statystki forum',
 
 //
 // Language for login.php
 //
 
-'Wrong user/pass'			=>	'Wrong username and/or password.',
-'Forgotten pass'			=>	'Forgotten password',
-'No email match'			=>	'There is no user registered with the email address',
-'Request pass'				=>	'Request password',
-'Remember me'				=>	'Remember me',
-'New password errors'		=>	'Password request error',
-'New passworderrors info'	=>	'The following error needs to be corrected before a new password can be sent:',
+'Wrong user/pass'			=>	'Zła nazwa użytkownika i/lub hasło.',
+'Forgotten pass'			=>	'Zapomniane hasło',
+'No email match'			=>	'Nie ma użytkownika, który zarejestrował się przy użyciu tego adresu e-mail',
+'Request pass'				=>	'Odzyskiwanie hasła',
+'Remember me'				=>	'Zapamiętaj mnie',
+'New password errors'		=>	'Błąd odzyskiwania hasła',
+'New passworderrors info'	=>	'Zanim będzie można przesłać nowe hasło, należy usunąć następujące błędy:',
 
-'Forget mail'				=>	'An email has been sent to the specified address with instructions on how to change your password. If it does not arrive you can contact the forum administrator at',
-'Password request flood'	=>  'This account has already requested a password reset in the past hour. Please wait %s minutes before requesting a new password again.',
+'Forget mail'				=>	'Wysłano e-mail, zawierający instrukcję zmiany hasła. Jeśli nie otrzymasz wiadomości, skontaktuj się z Administratorem, pod adresem',
+'Password request flood'	=>  'W ciągu ostatniej godziny, już wysłano żądanie zmiany hasła dla tego konta. Proszę poczekać %s minut, przed wysłaniem kolejnego żądania zmiany hasła.',
 
 //
 // Send email
 //
 
-'Form email disabled'			=>	'The user you are trying to send an email to has disabled form email.',
-'No email subject'				=>	'You must enter a subject.',
-'No email message'				=>	'You must enter a message.',
-'Too long email message'		=>	'Messages cannot be longer than 65535 characters (64 KB).',
-'Email flood'					=>  'At least %s seconds have to pass between sent emails. Please wait %s seconds and try sending again.',
-'Send email to'					=>	'Send email to',
+'Form email disabled'			=>	'Użytkownik, do którego próbujesz wysłać wiadomość e-mail, nie wyraził chęci na ich otrzymywanie.',
+'No email subject'				=>	'Musisz wpisać wątek.',
+'No email message'				=>	'Musisz wpisać wiadomość.',
+'Too long email message'		=>	'Wiadomość nie może być dłuższa niż 65535 znaków (64 KB).',
+'Email flood'					=>  'Musi minąć co najmniej %s sekund, zanim będzie można wysłać następną wiadomość. Proszę poczekać %s sekund i spróbować ponownie.',
+'Send email to'					=>	'Wyślij e-mail do',
 
 //
 // Report
 //
 
-'No reason'						=>	'You must enter a reason.',
-'Reason too long'				=>	'Your message must be under 65535 bytes (~64kb).',
-'Report flood'					=>  'At least %s seconds have to pass between reports. Please wait %s seconds and try sending again.',
-'Report post'					=>	'Report post',
-'Reason'						=>	'Reason',
-'Reason desc'					=>	'Please enter a short reason why you are reporting this post',
+'No reason'						=>	'Musisz wpisać powód zgłoszenia.',
+'Reason too long'				=>	'Wiadomość nie może być dłuższa niż 65535 znaków (64 KB).',
+'Report flood'					=>  'Musi minąć co najmniej %s sekund, zanim będzie można wysłać następne zgłoszenia. Proszę poczekać %s sekund i spróbować ponownie.',
+'Report post'					=>	'Zgłoś posta',
+'Reason'						=>	'Powód',
+'Reason desc'					=>	'Prosimy wpisać powód, dla którego zgłaszasz tego posta.',
 
 //
 // Subscriptions
 //
 
-'Not subscribed topic'			=>	'You\re not subscribed to this topic.',
+'Not subscribed topic'			=>	'Nie obserwujesz tego wątku.',
 
 //
 // General forum and topic moderation
 //
 
-'Moderate'						=>	'Moderate',
-'Select'						=>	'Select', // the header of a column of checkboxes
-'Move'							=>	'Move',
-'Split'							=>	'Split',
-'Merge'							=>	'Merge',
+'Moderate'						=>	'Moderuj',
+'Select'						=>	'Zaznacz', // the header of a column of checkboxes
+'Move'							=>	'Przenieś',
+'Split'							=>	'Podziel',
+'Merge'							=>	'Połącz',
 
 //
 // Moderate forum
 //
 
-'Open'							=>	'Open',
-'Close'							=>	'Close',
-'Move topics'					=>	'Move topics',
-'Move to'						=>	'Move to',
-'Nowhere to move'				=>	'There are no forums into which you can move topics.',
-'Leave redirect'				=>	'Leave redirect topic(s)',
-'Delete topics'					=>	'Delete topics',
-'Delete topics comply'			=>	'Are you sure you want to delete the selected topics?',
-'No topics selected'			=>	'You must select at least one topic for move/delete/open/close.',
-'Not enough topics selected'	=>	'You must select at least two topics for merge.',
-'Merge topics'					=>	'Merge topics',
-'New subject'					=>	'New subject',
+'Open'							=>	'Otwórz',
+'Close'							=>	'Zamknij',
+'Move topics'					=>	'Przenieś wątki',
+'Move to'						=>	'Przenieś do',
+'Nowhere to move'				=>	'Nie ma forów do których możesz przenieść wątki.',
+'Leave redirect'				=>	'Pozostaw odnośnik do wątku',
+'Delete topics'					=>	'Usuwanie wątków',
+'Delete topics comply'			=>	'Jesteś pewien, że chcesz usunąć wybrane wątki?',
+'No topics selected'			=>	'Musisz wybrać co najmniej jeden wątek, żeby go przenieść/usunąć/otworzyć/zamknąć.',
+'Not enough topics selected'	=>	'Musisz wybrać co najmniej dwa wątki, żeby je połączyć.',
+'Merge topics'					=>	'Połącz wątki',
+'New subject'					=>	'Nowy wątek',
 
 //
 // Split multiple posts in topic
 //
 
-'Split posts'					=>	'Split posts',
+'Split posts'					=>	'Podziel posty',
 
 //
 // Delete multiple posts in topic
 //
 
-'Delete posts'					=>	'Delete posts',
-'Cannot select first'			=>	'First post cannot be selected for split/delete.',
-'Delete posts comply'			=>	'Are you sure you want to delete the selected posts?',
-'No posts selected'				=>	'You must select at least one post for split/delete.',
+'Delete posts'					=>	'Usuwanie postów',
+'Cannot select first'			=>	'Pierwszy post nie może być wybrany do podzielenia/usunięcia.',
+'Delete posts comply'			=>	'Jesteś pewien, że chcesz usunąć wybrane posty?',
+'No posts selected'				=>	'Musisz wybrać co najmniej jeden post do podzielenia/usunięcia.',
 
 //
 // Get host
 //
 
-'Host info 1'					=>	'The IP address is: %s',
-'Host info 2'					=>	'The host name is: %s',
-'Show more users'				=>	'Show more users for this IP',
+'Host info 1'					=>	'Adres IP: %s',
+'Host info 2'					=>	'Nazwa hosta: %s',
+'Show more users'				=>	'Pokaż więcej użytkowników korzystających z tego IP',
 
 //
 // Language for post.php and edit.php
 // Post validation stuff (many are similiar to those in edit.php)
 //
 
-'No subject'		=>	'Topics must contain a subject.',
-'No subject after censoring'	=>	'Topics must contain a subject. After applying censoring filters, your subject was empty.',
-'Too long subject'	=>	'Subjects cannot be longer than 70 characters.',
-'No message'		=>	'You must enter a message.',
-'No message after censoring'	=>	'You must enter a message. After applying censoring filters, your message was empty.',
-'Too long message'	=>	'Posts cannot be longer than %s bytes.',
-'All caps subject'	=>	'Subjects cannot contain only capital letters.',
-'All caps message'	=>	'Posts cannot contain only capital letters.',
-'Empty after strip'	=>	'It seems your post consisted of empty BBCodes only. It is possible that this happened because e.g. the innermost quote was discarded because of the maximum quote depth level.',
+'No subject'		=>	'Wątek musi posiadać temat.',
+'No subject after censoring'	=>	'Wątek musi posiadać temat. Po zastosowaniu filtra słów zablokowanych, temat wątku jest pusty.',
+'Too long subject'	=>	'Długość tematu nie może przekraczać 70 znaków.',
+'No message'		=>	'Musisz wpisać treść wątku.',
+'No message after censoring'	=>	'Musisz wpisać treść wątku. Po zastosowaniu filtra słów zablokowanych, treść wątku jest pusta.',
+'Too long message'	=>	'Posty nie mogą być większe niż %s bajtów.',
+'All caps subject'	=>	'Temat wątku nie może zawierać wyłącznie WIELKICH liter.',
+'All caps message'	=>	'Posty nie mogą zawierać wyłącznie WIELKICH liter.',
+'Empty after strip'	=>	'Wygląda na to, że post zawierał puste znaczniki BBCode. Może się tak zdarzyć w przypadku odrzucenia znacznika cytatu, ze względu na przekroczenie głębokości cytatu.',
 
 //
 // Posting
 //
 
-'Post errors'		=>	'Post errors',
-'Post preview'		=>	'Post preview',
-'Guest name'		=>	'Name', // For guests (instead of Username)
-'Post a reply'		=>	'Post a reply',
-'Post new topic'	=>	'Post topic',
-'Hide smilies'		=>	'Never show smilies as icons for this post',
-'Subscribe topic'	=>	'Subscribe to this topic',
-'Stay subscribed'	=>	'Stay subscribed to this topic',
-'Topic review'		=>	'Topic review (newest first)',
-'Flood start'		=>  'At least %s seconds have to pass between posts. Please wait %s seconds and try posting again.',
-'Preview'			=>	'Preview',
+'Post errors'		=>	'Podgląd błędów',
+'Post preview'		=>	'Podgląd posta',
+'Guest name'		=>	'Gość', // For guests (instead of Username)
+'Post a reply'		=>	'Dodaj odpowiedź',
+'Post new topic'	=>	'Dodaj wątek',
+'Hide smilies'		=>	'Nie pokazuj graficznych emotek w tym poście',
+'Subscribe topic'	=>	'Obserwuj ten wątek',
+'Stay subscribed'	=>	'Zacznij obserwować ten wątek',
+'Topic review'		=>	'Podgląd wątku (najnowsze jako pierwsze)',
+'Flood start'		=>  'Musi minąć co najmniej %s sekund, zanim będzie można dodać kolejnego posta. Proszę poczekać %s sekund i spróbować ponownie.',
+'Preview'			=>	'Podgląd',
 
 //
 // Edit post
 //
 
-'Silent edit'		=>	'Silent edit (don\'t display "Edited by ..." in topic view)',
-'Edit post'			=>	'Edit post',
+'Silent edit'		=>	'Cicha edycja (nie wyświetlaj "Ostatnio edytowany przez ..." w widoku wątku)',
+'Edit post'			=>	'Edytuj posta',
 
 //
 // Language for both profile.php and register.php
 //
 
-'Email legend'				=>	'Enter a valid email address',
-'Time zone'					=>	'Time zone',
-'DST'						=>	'Advance time by 1 hour for daylight saving.',
-'Time format'				=>	'Time format',
-'Date format'				=>	'Date format',
-'Default'					=>	'Default',
-'Language'					=>	'Language',
-'Email setting info'		=>	'Email settings',
-'Email setting 1'			=>	'Display your email address.',
-'Email setting 2'			=>	'Hide your email address but allow form email.',
-'Email setting 3'			=>	'Hide your email address and disallow form email.',
+'Email legend'				=>	'Wpisz prawidłowy adres e-mail',
+'Time zone'					=>	'Strefa czasowa',
+'DST'						=>	'Zmiana czasu na letni (o 1 godzinę).',
+'Time format'				=>	'Format czasu',
+'Date format'				=>	'Format daty',
+'Default'					=>	'Domyślny',
+'Language'					=>	'Język',
+'Email setting info'		=>	'Ustawienia e-mail',
+'Email setting 1'			=>	'Wyświetlaj mój adres e-mail.',
+'Email setting 2'			=>	'Ukrywaj mój adres e-mail ale pozwól na wysyłanie wiadomości.',
+'Email setting 3'			=>	'Ukrywaj mój adres e-mail i nie pozwalaj na wysyłanie wiadomości.',
 
-'Username too short'		=>	'Usernames must be at least 2 characters long. Please choose another (longer) username.',
-'Username too long'			=>	'Usernames must not be more than 25 characters long. Please choose another (shorter) username.',
-'Username guest'			=>	'The username guest is reserved. Please choose another username.',
-'Username IP'				=>	'Usernames may not be in the form of an IP address. Please choose another username.',
-'Username reserved chars'	=>	'Usernames may not contain all the characters \', " and [ or ] at once. Please choose another username.',
-'Username BBCode'			=>	'Usernames may not contain any of the text formatting tags (BBCode) that the forum uses. Please choose another username.',
-'Banned username'			=>	'The username you entered is banned in this forum. Please choose another username.',
-'Pass too short'			=>	'Passwords must be at least 6 characters long. Please choose another (longer) password.',
-'Pass not match'			=>	'Passwords do not match.',
-'Banned email'				=>	'The email address you entered is banned in this forum. Please choose another email address.',
-'Dupe email'				=>	'Someone else is already registered with that email address. Please choose another email address.',
-'Sig too long'				=>	'Signatures cannot be longer than %1$s characters. Please reduce your signature by %2$s characters.',
-'Sig too many lines'		=>	'Signatures cannot have more than %s lines.',
-'Bad ICQ'					=>	'You entered an invalid ICQ UIN. Please go back and correct.',
+'Username too short'		=>	'Nazwa użytkownika musi się składać z co najmniej 2 znaków. Proszę wybrać inną (dłuższą) nazwę użytkownika.',
+'Username too long'			=>	'Nazwa użytkownika nie może być dłuższa niż 25 znaków. Proszę wybrać inną (krótszą) nazwę użytkownika.',
+'Username guest'			=>	'Nazwa użytkownika \'gość\' jest zarezerwowana. Proszę wybrać inną nazwę użytkownika.',
+'Username IP'				=>	'Nazwy użytkowników nie mogą mieć postaci adresu IP. Proszę wybrać inną nazwę użytkownika.',
+'Username reserved chars'	=>	'Nazwy użytkowników nie mogą zawierać znaków \', " i [ lub ]. Proszę wybrać inną nazwę użytkownika.',
+'Username BBCode'			=>	'Nazwy użytkowników nie mogą zawierać żadnych znaczników formatujących (BBCode) używanych na tym forum. Proszę wybrać inną nazwę użytkownika.',
+'Banned username'			=>	'Nazwa użytkownika, którą podałeś, jest zablokowana na tym forum. Proszę wybrać inną nazwę użytkownika.',
+'Pass too short'			=>	'Hasło musi się składać z co najmniej 6 znaków. Proszę wybrać inne (dłuższe) hasło.',
+'Pass not match'			=>	'Podane hasła nie są takie same.',
+'Banned email'				=>	'Podany adres e-mail, został zablokowany na tym forum. Proszę wybrać inny adres e-mail.',
+'Dupe email'				=>	'Ktoś już użył tego adresu e-mail, do rejestracji na tym forum. Proszę wybrać inny adres e-mail.',
+'Sig too long'				=>	'Podpis nie może zawierać więcej niż %1$s znaków. Proszę skrócić podpis o %2$s znaków.',
+'Sig too many lines'		=>	'Ilość dozwolonych wierszy w podpisie wynosi %s.',
+'Bad ICQ'					=>	'Wpisano nieprawidłowy ICQ UIN. Proszę wrócić i dokonać korekty.',
 
 //
 // Language for profile.php
 //
 
-'Section personality'			=>	'Personality',
-'Section admin'					=>	'Administration',
+'Section personality'			=>	'Szczegóły użytkownika',
+'Section admin'					=>	'Zarządzaj użytkownikiem',
 
 //
 // Miscellaneous
 //
 
-'Personal details legend'		=>	'Contact details',
-'User tools'					=>	'User tools',
-'Unknown'          				=>  'Unknown',
+'Personal details legend'		=>	'Szczegóły kontaktu',
+'User tools'					=>	'Narzędzia',
+'Unknown'          				=>  'Nieznany',
 
 //
 // Password stuff
 //
 
-'Pass key bad'					=>	'The specified password activation key was incorrect or has expired. Please re-request a new password. If that fails, contact the forum administrator at',
-'Pass updated'					=>	'Your password has been updated. You can now login with your new password.',
-'Wrong pass'					=>	'Wrong old password.',
-'Change pass'					=>	'Change password',
-'Old pass'						=>	'Old password',
-'New pass'						=>	'New password',
-'Confirm new pass'				=>	'Confirm new password',
-'Pass info'						=>	'Passwords must be at least 6 characters long and are case sensitive',
+'Pass key bad'					=>	'Klucz aktywacji hasła jest nieprawidłowy bądź wygasł. Wyślij ponownie prośbę o nowe hasło. Jeśli to zawiedzie, skontaktuj się z Administratorem, pod adresem',
+'Pass updated'					=>	'Zaktualizowano hasło. Możesz się teraz zalogować, używając nowego hasła.',
+'Wrong pass'					=>	'Stare hasło nie jest prawidłowe.',
+'Change pass'					=>	'Zmień hasło',
+'Old pass'						=>	'Stare hasło',
+'New pass'						=>	'Nowe hasło',
+'Confirm new pass'				=>	'Potwierdź nowe hasło',
+'Pass info'						=>	'Hasło musi się składać z co najmniej 6 znaków. W haśle jest rozróżniana wielkość znaków',
 
 //
 // Email stuff
 //
 
-'Email key bad'					=>	'The specified email activation key was incorrect or has expired. Please re-request change of email address. If that fails, contact the forum administrator at',
-'Email updated'					=>	'Your email address has been updated.',
-'Activate email sent'			=>	'An email has been sent to the specified address with instructions on how to activate the new email address. If it doesn\'t arrive you can contact the forum administrator at',
-'Email instructions'			=>	'An email will be sent to your new address with an activation link. You must click the link in the email you receive to activate the new address.',
-'Change email'					=>	'Change email address',
-'New email'						=>	'New email',
+'Email key bad'					=>	'Klucz aktywacji adresu e-mail jest nieprawidłowy bądź wygasł. Wyślij ponownie prośbę o zmianę adresu e-mail. Jeśli to zawiedzie, skontaktuj się z Administratorem, pod adresem',
+'Email updated'					=>	'Twój adres e-mail został zmieniony.',
+'Activate email sent'			=>	'Wiadomość e-mail, zawierającą instrukcję aktywacji nowego konta, została wysłana na podany adres. w przypadku gdyby wiadomość nie dotarła, skontaktuj się z Administratorem, pod adresem',
+'Email instructions'			=>	'Wiadomość e-mail z odnośnikiem aktywacyjnym, została wysłana na nowy adres. Musisz kliknąć na odnośnik w wiadomości, w celu aktywowania nowego adresu.',
+'Change email'					=>	'Zmień adres e-mail',
+'New email'						=>	'Nowy e-mail',
 
 //
 // Avatar upload stuff
 //
 
-'Avatars disabled'				=>	'The administrator has disabled avatar support.',
-'Too large ini'					=>	'The selected file was too large to upload. The server didn\'t allow the upload.',
-'Partial upload'				=>	'The selected file was only partially uploaded. Please try again.',
-'No tmp directory'				=>	'PHP was unable to save the uploaded file to a temporary location.',
-'No file'						=>	'You did not select a file for upload.',
-'Bad type'						=>	'The file you tried to upload is not of an allowed type. Allowed types are gif, jpeg and png.',
-'Too wide or high'				=>	'The file you tried to upload is wider and/or higher than the maximum allowed',
-'Too large'						=>	'The file you tried to upload is larger than the maximum allowed',
-'pixels'						=>	'pixels',
-'bytes'							=>	'bytes',
-'Move failed'					=>	'The server was unable to save the uploaded file. Please contact the forum administrator at',
-'Unknown failure'				=>	'An unknown error occurred. Please try again.',
-'Avatar desc'					=>	'An avatar is a small image that will be displayed under your username in your posts. It must not be any bigger than',
-'Upload avatar'					=>	'Upload avatar',
-'Delete avatar'					=>	'Delete avatar', // only for admins
-'File'							=>	'File',
-'Upload'						=>	'Upload', // submit button
+'Avatars disabled'				=>	'Administrator wyłączył możliwość dodawania zdjęć profilowych.',
+'Too large ini'					=>	'Wybrany plik jest był za duży i serwer nie pozwolił na jego dodanie.',
+'Partial upload'				=>	'Wybrany plik jest został tylko częściowo dodany. Proszę spróbować ponownie.',
+'No tmp directory'				=>	'PHP nie mógł zapisać pliku w folderze tymczasowym.',
+'No file'						=>	'Nie wybrano pliku do dodania.',
+'Bad type'						=>	'Plik który próbujesz dodać, nie posiada dozwolonego rozszerzenia. Obsługiwane rozszerzenia to gif, jpeg i png.',
+'Too wide or high'				=>	'Plik który próbujesz dodać, jest szerszy i/lub wyższy niż dozwolone maksimum',
+'Too large'						=>	'Plik który próbujesz dodać, jest większy niż dozwolone maksimum',
+'pixels'						=>	'pikseli',
+'bytes'							=>	'bajtów',
+'Move failed'					=>	'Serwer nie mógł zapisać dodawanego pliku. Skontaktuj się z Administratorem, pod adresem',
+'Unknown failure'				=>	'Wystąpił błąd. Proszę spróbować ponownie.',
+'Avatar desc'					=>	'Zdjęcie profilowe użytkownika to mała grafika, która będzie wyświetlać się pod twoją nazwą użytkownika, w postach które napisałeś. Zdjęcie nie powinno być większe niż',
+'Upload avatar'					=>	'Dodaj zdjęcie',
+'Delete avatar'					=>	'Usuń zdjęcie', // only for admins
+'File'							=>	'Plik',
+'Upload'						=>	'Dodaj', // submit button
 
 //
 // Form validation stuff
 //
 
-'Forbidden title'				=>	'The title you entered contains a forbidden word. You must choose a different title.',
+'Forbidden title'				=>	'Tytuł zawiera niedozwolone słowo. Musisz wybrać inny tytuł.',
 
 //
 // Profile display stuff
 //
 
-'Email info'					=>	'Email: %s',
-'Last visit info'				=>	'Last visit',
-'Show posts'					=>	'Show posts',
-'Show topics'					=>	'Show topics',
-'Show subscriptions'			=>	'Show subscriptions',
-'Contact'						=>	'Contact',
-'Realname'						=>	'Real name',
-'Location'						=>	'Location',
-'Website'						=>	'Website',
-'Invalid website URL'			=>	'The website URL you entered is invalid.',
-'Microsoft'						=>	'Microsoft Account',
+'Email info'					=>	'E-mail: %s',
+'Last visit info'				=>	'Ostatnio na forum',
+'Show posts'					=>	'Pokaż posty',
+'Show topics'					=>	'Pokaż wątki',
+'Show subscriptions'			=>	'Pokaż obserwowane',
+'Contact'						=>	'Kontakt',
+'Realname'						=>	'Prawdziwe imię',
+'Location'						=>	'Skąd',
+'Website'						=>	'Strona internetowa',
+'Invalid website URL'			=>	'Podany adres URL nie jest prawidłowy.',
+'Microsoft'						=>	'Konto Microsoft',
 'Facebook'						=>	'Facebook',
 'Twitter'						=>	'Twitter',
 'Google+'						=>	'Google+',
-'Avatar'						=>	'Avatar',
-'Sig max size'					=>	'Max length: %s characters / Max lines: %s',
-'Avatar info'					=>	'An avatar is a small image that will be displayed with all your posts. You can upload an avatar by clicking the link below.',
-'Change avatar'					=>	'Change avatar',
-'Signature info'				=>	'A signature is a small piece of text that is attached to your posts. In it, you can enter just about anything you like.',
-'Sig preview'					=>	'Current signature preview:',
-'No sig'						=>	'No signature currently stored in profile.',
-'Signature quote/code/list/h'	=>	'The quote, code, list, and heading BBCodes are not allowed in signatures.',
-'Posts per page'				=>	'Posts',
-'Leave blank'					=>	'Leave blank to use default',
-'Notify full'					=>	'Include a plain text version of new posts in subscription notification emails.',
-'Auto notify full'				=>	'Automatically subscribe to every topic you post in.',
-'Show smilies'					=>	'Show smilies as graphic icons.',
-'Show images'					=>	'Show images in posts.',
-'Show images sigs'				=>	'Show images in user signatures.',
-'Show avatars'					=>	'Show user avatars in posts.',
-'Show sigs'						=>	'Show user signatures.',
-'Style'							=>	'Style',
-'Backstage Accent'				=>	'Backstage Accent',
-'Admin note'					=>	'Admin note',
-'Post display'					=>	'Post display',
+'Avatar'						=>	'Zdjęcie',
+'Sig max size'					=>	'Maksymalna długość: %s znaków / ilość linii: %s',
+'Avatar info'					=>	'Zdjęcie profilowe użytkownika to mała grafika, która będzie wyświetlać się pod twoją nazwą użytkownika, w postach które napisałeś. Możesz dodać swoje zdjęcie, korzystając poniższego odnośnika.',
+'Change avatar'					=>	'Zmień zdjęcie',
+'Signature info'				=>	'Podpis, jest to blok tekstu, który jest wyświetlany pod twoimi postami. Możesz tam wpisać wszystko co chcesz.. No, prawie wszystko.',
+'Sig preview'					=>	'Podgląd obecnego podpisu:',
+'No sig'						=>	'Brak podpisu.',
+'Signature quote/code/list/h'	=>	'Znaczniki cytowania, kodu, list i tekstu nagłówkowego, nie są dozwolone w podpisach.',
+'Posts per page'				=>	'Postów na stronę',
+'Topics per page'				=>	'Wątków na stronę',
+'Leave blank'					=>	'Pozostaw puste żeby użyć domyślnego',
+'Notify full'					=>	'Dołącz wersję tekstową nowych postów, w powiadomieniu o nowych postach w obserwowanych wątkach.',
+'Auto notify full'				=>	'Automatycznie dodawaj do obserwowanych wątek w którym napisałem posta.',
+'Show smilies'					=>	'Pokazuj graficzne emotki.',
+'Show images'					=>	'Pokazuj grafikę w postach.',
+'Show images sigs'				=>	'Pokazuj grafikę w podpisach użytkowników.',
+'Show avatars'					=>	'Pokazuj w postach zdjęcia użytkowników.',
+'Show sigs'						=>	'Pokazuj podpisy użytkowników.',
+'Style'							=>	'Styl',
+'Backstage Accent'				=>	'Motyw Zaplecza',
+'Admin note'					=>	'Notatka administratora',
+'Post display'					=>	'Wyświetlanie posta',
 
 //
 // Administration stuff
 //
 
-'Group membership legend'		=>	'Choose user group',
-'Save'							=>	'Save',
-'Set mods legend'				=>	'Set moderator access',
-'Moderator in info'				=>	'Choose which forums this user should be allowed to moderate. Note: This only applies to moderators. Administrators always have full permissions in all forums.',
-'Update forums'					=>	'Update forums',
-'Delete ban legend'				=>	'Delete or ban user',
-'Delete user'					=>	'Delete user',
-'Ban user'						=>	'Ban user',
-'Confirm delete user'			=>	'Confirm delete user',
-'Confirmation info'				=>	'Please confirm that you want to delete the user', // the username will be appended to this string
-'Delete warning'				=>	'Warning! Deleted users and/or posts cannot be restored. If you choose not to delete the posts made by this user, the posts can only be deleted manually at a later time.',
-'Delete all posts'				=>	'Delete any posts and topics this user has made',
-'No delete admin message'		=>	'Administrators cannot be deleted. In order to delete this user, you must first move him/her to a different user group.',
+'Group membership legend'		=>	'Wybierz grupę użytkownika',
+'Save'							=>	'Zapisz',
+'Set mods legend'				=>	'Ustawienia moderatora',
+'Moderator in info'				=>	'Wybierz fora, którymi będzie mógł zarządzać ten użytkownik. Uwaga: dotyczy to tylko Moderatorów. Administratorzy mają pełne prawa, we wszystkich forach.',
+'Update forums'					=>	'Aktualizuj fora',
+'Delete ban legend'				=>	'Usuń lub zablokuj użytkownika',
+'Delete user'					=>	'Usuń użytkownika',
+'Ban user'						=>	'Zablokuj użytkownika',
+'Confirm delete user'			=>	'Potwierdź usunięcie użytkownika',
+'Confirmation info'				=>	'Potwierdź, że chcesz usunąć użytkownika', // the username will be appended to this string
+'Delete warning'				=>	'Ostrzeżenie! Usunięci użytkownicy i/lub ich posty, nie mogą być przywrócone. Jeśli wybrano, żeby nie usuwać postów napisanych przez użytkownika, można je usunąć ręcznie w późniejszym czasie.',
+'Delete all posts'				=>	'Usuń posty i wątki napisane przez tego użytkownika',
+'No delete admin message'		=>	'Administratorzy nie mogą być usunięci. Jeśli chcesz usunąć tego użytkownika, musisz najpierw przenieść go do innej grupy.',
 
 //
 // Language for register.php
 //
 
-'No new regs'				=>	'This forum is not accepting new registrations.',
-'Forum rules'				=>	'Forum rules',
-'Rules legend'				=>	'You must agree to the following in order to register',
-'Registration flood'		=>	'A new user was registered with the same IP address as you within the last hour. To prevent registration flooding, at least an hour has to pass between registrations from the same IP. Sorry for the inconvenience.',
-'Agree'						=>	'Agree',
-'Cancel'					=>	'Cancel',
-'Register legend'			=>	'Enter the requested data',
+'No new regs'				=>	'Rejestracja na tym forum jest wyłączona.',
+'Forum rules'				=>	'Regulamin forum',
+'Rules legend'				=>	'Musisz zgodzić się na poniższy Regulamin, żeby móc kontynuować rejestrację',
+'Registration flood'		=>	'W ciągu ostatniej godziny, z tego adresu IP już zarejestrował się nowy użytkownik. Żeby zapobiec masowym rejestracjom, musi upłynąć co najmniej godzina, zanim będzie można zarejestrować konto z tego samego adresu IP. Przepraszamy za utrudnienia.',
+'Agree'						=>	'Zgadzam się',
+'Cancel'					=>	'Anuluj',
+'Register legend'			=>	'Proszę podać wymagane dane',
 
 //
 // Form validation stuff (some of these are also used in post.php)
 //
 
-'Registration errors'		=>	'Registration errors',
-'Username censor'			=>	'The username you entered contains one or more censored words. Please choose a different username.',
-'Username dupe 1'			=>	'Someone is already registered with the username',
-'Username dupe 2'			=>	'The username you entered is too similar. The username must differ from that by at least one alphanumerical character (a-z or 0-9). Please choose a different username.',
-'Email not match'			=>	'Email addresses do not match.',
+'Registration errors'		=>	'Błędy rejestracji',
+'Username censor'			=>	'Podana nazwa użytkownika zawiera jeden, bądź kilka niedozwolonych wyrazów. Proszę wybrać inną nazwę.',
+'Username dupe 1'			=>	'Ktoś już zarejestrował się pod podaną nazwą użytkownika',
+'Username dupe 2'			=>	'Podana nazwa użytkownika jest zbyt podobna. Nazwa musi różnić się co najmniej jednym znakiem alfanumerycznym (a-z lub 0-9). Proszę wybrać inną nazwę.',
+'Email not match'			=>	'Podane adres e-mail nie zgadzają się.',
 
 //
 // Registration email stuff
 //
 
-'Reg email'					=>	'Thank you for registering. Your password has been sent to the specified address. If it doesn\'t arrive you can contact the forum administrator at',
+'Reg email'					=>	'Dziękujemy za rejestrację. Twoje hasło zostało wysłane na podany wcześniej adres. Jeśli wiadomość nie dotrze, możesz skontaktować się z Administratorem, pod adresem',
 
 //
 // Register info
 //
 
-'Username legend'			=>	'Enter a username between 2 and 25 characters long',
-'Email help info'			=>	'Your password will be sent to this address, make sure it\'s valid',
-'If human'					=>	'If you are human please leave this field blank!',
-'Spam catch'				=>	'Unfortunately it looks like your request is spam. If you feel this is a mistake, please direct any inquiries to the forum administrator at',
+'Username legend'			=>	'Nazwa użytkownika może zawierać od 2 do 25 znaków',
+'Email help info'			=>	'Upewnij się, że podałeś poprawny adres, ponieważ będzie tam wysłane twoje hasło',
+'If human'					=>	'Jeśli jesteś człowiekiem, nie wpisuj nic w tym polu!',
+'Spam catch'				=>	'Niestety wygląda na to, że to żądanie jest spamem. Jeśli uważasz, że to pomyłka, proszę kierować wszelkie pytania do administratora forum, pod adresem',
 
 //
 // Language for search.php
 //
 
-'User search'						=>	'User search',
-'No search permission'				=>	'You do not have permission to use the search feature.',
-'Search flood'						=>  'At least %s seconds have to pass between searches. Please wait %s seconds and try searching again.',
-'Search criteria legend'			=>	'Enter your search criteria',
-'Search info'						=>	'To search by keyword, enter a term or terms to search for. Separate terms with spaces. Use AND, OR and NOT to refine your search. To search by author enter the username of the author whose posts you wish to search for. Use wildcard character * for partial matches.',
-'Keyword search'					=>	'Keyword search',
-'Author search'						=>	'Author search',
-'All forums'						=>	'All forums',
-'Search in'							=>	'Search in',
-'Message and subject'				=>	'Message text and topic subject',
-'Message only'						=>	'Message text only',
-'Topic only'						=>	'Topic subject only',
-'Sort by'							=>	'Sort by',
-'Sort order'						=>	'Sort order',
-'Search results info'				=>	'You can choose how you wish to sort and show your results.',
-'Sort by post time'					=>	'Post time',
-'Sort by author'					=>	'Author',
-'Ascending'							=>	'Ascending',
-'Descending'						=>	'Descending',
-'Show as'							=>	'Show as',
-'Show as posts'						=>	'Posts',
-'Advanced search'					=>	'Advanced search',
+'User search'						=>	'Wyszukiwanie użytkowników',
+'No search permission'				=>	'Nie masz uprawnień do korzystania z funkcji wyszukiwania.',
+'Search flood'						=>  'Musi minąć co najmniej %s sekund, pomiędzy kolejnymi wyszukiwaniami. Proszę poczekać %s sekund i spróbować ponownie.',
+'Search criteria legend'			=>	'Wprowadź kryteria wyszukiwania',
+'Search info'						=>	'Żeby szukać po słowie kluczowym, wpisz wyrażenie lub wyrażenia, które cię interesują. Poszczególne wyrażenia oddzielaj spacjami. Możesz użyć operatorów wyszukiwania AND, OR i NOT w celu otrzymania bardziej precyzyjnych wyników. Możesz szukać postów na podstawie autora, po prostu wpisz jego nazwę użytkownika. Możesz także użyć * żeby zastąpić ciąg znaków.',
+'Keyword search'					=>	'Słowo kluczowe',
+'Author search'						=>	'Autor',
+'All forums'						=>	'Wszystkie fora',
+'Search in'							=>	'Szukaj w',
+'Message and subject'				=>	'W treści postów i tytułach wątków',
+'Message only'						=>	'Tylko w treści postów',
+'Topic only'						=>	'Tylko w tytułach wątków',
+'Sort by'							=>	'Sortuj według',
+'Sort order'						=>	'Kolejność sortowania',
+'Search results info'				=>	'Możesz wybrać, w jaki sposób wyświetlić i posortować wynik wyszukiwania.',
+'Sort by post time'					=>	'Czas publikacji',
+'Sort by author'					=>	'Autora',
+'Ascending'							=>	'Rosnąco',
+'Descending'						=>	'Malejąco',
+'Show as'							=>	'Pokaż jako',
+'Show as posts'						=>	'Posty',
+'Advanced search'					=>	'Wyszukiwanie zaawansowane',
 
 //
 // Results
 //
 
-'Search results'					=>	'Search results',
-'Quick search show_new'				=>	'New',
-'Quick search show_recent'			=>	'Active',
-'Quick search show_unanswered'		=>	'Unanswered',
-'Quick search show_user_topics'		=>	'Topics by %s',
-'Quick search show_user_posts'		=>	'Posts by %s',
-'Quick search show_subscriptions'	=>	'Subscribed by %s',
-'By keywords show as topics'		=>	'Topics with posts containing \'%s\'',
-'By keywords show as posts'			=>	'Posts containing \'%s\'',
-'By user show as topics'			=>	'Topics with posts by %s',
-'By user show as posts'				=>	'Posts by %s',
-'By both show as topics'			=>	'Topics with posts containing \'%s\', by %s',
-'By both show as posts'				=>	'Posts containing \'%s\', by %s',
-'No terms'							=>	'You have to enter at least one keyword and/or an author to search for.',
-'No hits'							=>	'Your search returned no hits.',
-'No user posts'						=>	'There are no posts by this user in this forum.',
-'No user topics'					=>	'There are no topics by this user in this forum.',
-'No subscriptions'					=>	'This user is currently not subscribed to any topics.',
-'No new posts'						=>	'There are no topics with new posts since your last visit.',
-'No recent posts'					=>	'No new posts have been made within the last 24 hours.',
-'No unanswered'						=>	'There are no unanswered posts in this forum.',
-'Go to post'						=>	'Go to post',
-'Go to topic'						=>	'Go to topic',
+'Search results'					=>	'Wyniki wyszukiwania',
+'Quick search show_new'				=>	'Nowe',
+'Quick search show_recent'			=>	'Aktywne',
+'Quick search show_unanswered'		=>	'Bez odpowiedzi',
+'Quick search show_user_topics'		=>	'Wątki napisane przez %s',
+'Quick search show_user_posts'		=>	'Posty napisane przez %s',
+'Quick search show_subscriptions'	=>	'Obserwowane przez %s',
+'By keywords show as topics'		=>	'Wątki z postami zawierającymi \'%s\'',
+'By keywords show as posts'			=>	'Posty zawierające \'%s\'',
+'By user show as topics'			=>	'Wątki z postami napisanymi przez %s',
+'By user show as posts'				=>	'Posty napisanie przez %s',
+'By both show as topics'			=>	'Wątki z postami zawierającymi \'%s\', napisane przez %s',
+'By both show as posts'				=>	'Posty zawierające \'%s\', napisane przez %s',
+'No terms'							=>	'Żeby coś znaleźć, musisz wpisać co najmniej jedno słowo kluczowe, i/lub autora.',
+'No hits'							=>	'Brak wyników do wyświetlenia.',
+'No user posts'						=>	'Brak postów tego użytkownika, napisanych w tym forum.',
+'No user topics'					=>	'Brak wątków tego użytkownika, napisanych w tym forum.',
+'No subscriptions'					=>	'Ten użytkownik nie obserwuje żadnych wątków.',
+'No new posts'						=>	'Brak wątków z nowymi postami od twojej ostatniej wizyty. ',
+'No recent posts'					=>	'Brak nowych postów, napisanych w ciągu ostatnich 24 godzin.',
+'No unanswered'						=>	'Brak nowych postów bez odpowiedzi w tym forum.',
+'Go to post'						=>	'Idź do posta',
+'Go to topic'						=>	'Idź do wątku',
 
 //
 // Language for viewtopic.php
 //
 
-'Post reply'		=>	'Post reply',
-'Topic closed'		=>	'Topic closed',
-'From'				=>	'From:', // User location
-'IP address logged'	=>	'IP log',
-'Note'				=>	'Note:', // Admin note
-'Posts'				=>	'Posts:',
-'Replies'			=>	'Replies:',
-'Last edit'			=>	'Last edited by',
-'Report'			=>	'Report',
-'Edit'				=>	'Edit',
-'Quote'				=>	'Quote',
-'Is subscribed'		=>	'You are subscribed',
-'Unsubscribe'		=>	'Unsubscribe',
-'Subscribe'			=>	'Subscribe',
-'Quick post'		=>	'Quick post',
-'New icon'			=>	'New post',
-'Re'				=>	'Re:',
+'Post reply'		=>	'Dodaj odpowiedź',
+'Topic closed'		=>	'Wątek zamknięty',
+'From'				=>	'Skąd:', // User location
+'IP address logged'	=>	'Log IP',
+'Note'				=>	'Notatka:', // Admin note
+'Posts'				=>	'Postów:',
+'Replies'			=>	'Odpowiedzi:',
+'Last edit'			=>	'Ostatnio edytowany przez',
+'Report'			=>	'Zgłoś',
+'Edit'				=>	'Edytuj',
+'Quote'				=>	'Cytuj',
+'Is subscribed'		=>	'Dodano do obserwowanych',
+'Unsubscribe'		=>	'Przestań obserwować',
+'Subscribe'			=>	'Obserwuj',
+'Quick post'		=>	'Szybka odpowiedź',
+'New icon'			=>	'Nowy post',
+'Re'				=>	'Odp:',
 
 //
 // Language for userlist.php
 //
 
-'User search info'	=>	'Enter a username to search for and/or a user group to filter by. Use the wildcard character * for partial matches.',
-'User group'		=>	'User group',
-'No of posts'		=>	'Number of posts',
-'All users'			=>	'All users',
+'User search info'	=>	'Wpisz nazwę użytkownika, którego chcesz znaleźć i/lub wybierz grupę, żeby przefiltrować wynik. Możesz także użyć * żeby zastąpić ciąg znaków.',
+'User group'		=>	'Grupa użytkownika',
+'No of posts'		=>	'Ilość postów',
+'All users'			=>	'Wszyscy użytkownicy',
 
 //
 // Language for viewforum.php
 //
 
-'Views'			=>	'Views',
-'Moved'			=>	'Moved',
-'Star'			=>	'Star',
-'Sticky'		=>	'Sticky',
-'Closed'		=>	'Closed',
-'Empty forum'	=>	'Forum is empty.',
+'Views'			=>	'Wyświetleń',
+'Moved'			=>	'Przeniesiony',
+'Star'			=>	'Gwiazdka',
+'Sticky'		=>	'Przypięty',
+'Closed'		=>	'Zamknięty',
+'Empty forum'	=>	'Forum jest puste.',
 
 //
 // Language for Backstage
 // Language for backstage.php
 //
 
-'Update settings head'		=>	'Update settings',
-'Index update check'		=>	'Check for updates every time the Backstage index is visited, if disabled, you won\'t see update notifications.',
+'Update settings head'		=>	'Aktualizuj ustawienia',
+'Index update check'		=>	'Sprawdzaj aktualizacje za każdym razem jak odwiedzam Zaplecze. Jeśli wyłączono tę opcję, powiadomienia o aktualizacjach nie będą widoczne.',
 
 //
 // Language for bans.php
 //
 
-'No user message'			=>	'No user by that username registered. If you want to add a ban not tied to a specific username just leave the username blank.',
-'No user ID message'		=>	'No user by that ID registered.',
-'User is admin message'		=>	'The user %s is an administrator and can\'t be banned. If you want to ban an administrator, you must first demote him/her.',
-'User is mod message'		=>	'The user %s is a moderator and can\'t be banned. If you want to ban a moderator, you must first demote him/her.',
-'Must enter message'		=>	'You must enter either a username, an IP address or an email address (at least).',
-'Cannot ban guest message'	=>	'The guest user cannot be banned.',
-'Invalid IP message'		=>	'You entered an invalid IP/IP-range.',
-'Invalid e-mail message'	=>	'The email address (e.g. user@domain.com) or partial email address domain (e.g. domain.com) you entered is invalid.',
-'Invalid date message'		=>	'You entered an invalid expire date.',
-'Invalid date reasons'		=>	'The format should be YYYY-MM-DD and the date must be at least one day in the future.',
+'No user message'			=>	'Brak zarejestrowanego użytkownika o tej nazwie. Jeśli chcesz dodać blokadę, nie przypisaną do konkretnej nazwy użytkownika, zostaw to pole puste.',
+'No user ID message'		=>	'Brak użytkownika o tym ID.',
+'User is admin message'		=>	'Użytkownik %s jest administratorem i nie można go zablokować. Jeśli chcesz go zablokować, musisz najpierw przenieść go do innej grupy.',
+'User is mod message'		=>	'Użytkownik %s jest moderatorem i nie można go zablokować. Jeśli chcesz go zablokować, musisz najpierw przenieść go do innej grupy.',
+'Must enter message'		=>	'Należy wprowadzić co najmniej nazwę użytkownika, adres IP lub adres e-mail',
+'Cannot ban guest message'	=>	'Użytkownik \'Gość\' nie może być zablokowany.',
+'Invalid IP message'		=>	'Wpisano nieprawidłowy adres IP lub zakres adresów IP.',
+'Invalid e-mail message'	=>	'Podany adres e-mail (np. nazwa@domena.com, lub jego część, np. domena.com), nie jest prawidłowy',
+'Invalid date message'		=>	'Wpisano nieprawidłową datę wygaśnięcia.',
+'Invalid date reasons'		=>	'Prawidłowy format daty wygląda następująco RRRR-MM-DD oraz musi być to co najmniej jeden dzień do przodu.',
 
-'New ban head'				=>	'Add ban',
-'Username help'				=>	'The username to ban',
-'Username advanced help'	=>	'The username you want to ban. If you want to ban a specific IP/IP-range or email, leave it blank.',
+'New ban head'				=>	'Dodaj blokadę',
+'Username help'				=>	'Użytkownik do zablokowania',
+'Username advanced help'	=>	'Wpisz nazwę użytkownika do zablokowania. Jeśli chcesz zablokować określony adres IP lub zakres adresów IP, zostaw to pole puste.',
 
-'Ban search head'			=>	'Ban search',
-'Ban search info'			=>	'Search for bans in the database. You can enter one or more terms to search for. Wildcards in the form of asterisks (*) are accepted. To show all bans leave all fields empty.',
-'Date help'					=>	'(yyyy-mm-dd)',
-'Expire after label'		=>	'Expire after',
-'Expire before label'		=>	'Expire before',
-'Order by label'			=>	'Order by',
+'Ban search head'			=>	'Wyszukiwanie blokad',
+'Ban search info'			=>	'Szukaj blokad w bazie danych. Możesz wpisać jeden lub kilka warunków.  Możesz także użyć * żeby zastąpić ciąg znaków. Żeby wyświetlić wszystkie blokady, zostaw te pola puste.',
+'Date help'					=>	'(rrrr-mm-dd)',
+'Expire after label'		=>	'Wygasa po',
+'Expire before label'		=>	'Wygasa przed',
+'Order by label'			=>	'Sortuj po',
 'Order by ip'				=>	'IP',
-'Order by expire'			=>	'Expire date',
-'Submit search'				=>	'Submit search',
+'Order by expire'			=>	'Dacie wygaśnięcia',
+'Submit search'				=>	'Wyszukaj',
 
-'E-mail help'				=>	'The email or email domain you wish to ban',
-'IP label'					=>	'IP address/IP-ranges',
-'IP help'					=>	'The IP you wish to ban, separate addresses with spaces',
-'IP help link'				=>	'Click %s to see IP statistics for this user.',
-'Ban advanced head'			=>	'Advanced ban settings',
-'Ban advanced subhead'		=>	'Supplement ban with IP and email',
-'Ban message label'			=>	'Ban message',
-'Ban message help'			=>	'A message for banned users',
-'Message expiry subhead'	=>	'Ban message and expiry',
-'Expire date label'			=>	'Expire date',
-'Expire date help'			=>	'When does the ban expire, blank for manually',
+'E-mail help'				=>	'E-mail lub domena którą chcesz zablokować',
+'IP label'					=>	'Adres IP/zakres adresów IP',
+'IP help'					=>	'Adres IP który chcesz zablokować, kolejne adresy oddzielaj spacjami',
+'IP help link'				=>	'Kliknij %s, żeby zobaczyć statystyki adresu IP dla tego użytkownika.',
+'Ban advanced head'			=>	'Zaawansowane ustawienia blokowania',
+'Ban advanced subhead'		=>	'Podaj adres e-mail oraz IP do zablokowania',
+'Ban message label'			=>	'Wiadomość dla zablokowanego',
+'Ban message help'			=>	'Wiadomość dla zablokowanych użytkowników.',
+'Message expiry subhead'	=>	'Wiadomość blokady i jej wygaśnięcie',
+'Expire date label'			=>	'Data wygaśnięcia',
+'Expire date help'			=>	'Kiedy blokada ma wygasnąć. Pozostaw puste, jeśli blokada ma być zdjęta ręcznie',
 
-'Results head'				=>	'Search Results',
-'Results IP address head'	=>	'IP/IP-ranges',
-'Results expire head'		=>	'Expires',
-'Results banned by head'	=>	'Banned by',
-'No match'					=>	'No match',
+'Results head'				=>	'Wyniki wyszukiwania',
+'Results IP address head'	=>	'IP/zakres IP',
+'Results expire head'		=>	'Wygasa',
+'Results banned by head'	=>	'Zablokowany przez',
+'No match'					=>	'Brak zgodności',
 
 //
 // Language for board.php
 //
 
-'Must enter name message'		=>	'You must enter a name',
-'Confirm delete cat head'		=>	'Confirm delete category',
-'Confirm delete cat info'		=>	'Are you sure that you want to delete the category <strong>%s</strong>?',
-'Delete category warn'			=>	'Deleting a category will delete all forums and posts (if any) in this category!',
-'Must enter integer message'	=>	'Position must be a positive integer value.',
-'Add categories head'			=>	'Add categories',
-'Delete categories head'		=>	'Delete categories',
-'Edit categories head'			=>	'Edit categories',
-'Category position label'		=>	'Position',
-'Category name label'			=>	'Name',
+'Must enter name message'		=>	'Musisz wpisać nazwę',
+'Confirm delete cat head'		=>	'Potwierdź usunięcie kategorii',
+'Confirm delete cat info'		=>	'Jesteś pewien, że chcesz usunąć kategorię <strong>%s</strong>?',
+'Delete category warn'			=>	'Usunięcie kategorii spowoduje także usunięcie istniejących w nim forów i postów!',
+'Must enter integer message'	=>	'Wartość pozycji, nie może być ujemna oraz musi być liczbą całkowitą większą od zera ^^.',
+'Add categories head'			=>	'Dodaj kategorie',
+'Delete categories head'		=>	'Usuń kategorie',
+'Edit categories head'			=>	'Edytuj kategorie',
+'Category position label'		=>	'Pozycja',
+'Category name label'			=>	'Nazwa',
 
 //
 // Language fox censoring.php
 //
 
-'Must enter word message'	=>	'You must enter a word to censor.',
-'Add word subhead'			=>	'Add word',
-'Add word info'				=>	'Enter a word that you want to censor and the replacement text for this word. Wildcards are accepted (i.e. *some* would match somewhere and lonesome). Censor words also affect usernames. New users will not be able to register with usernames containing any censored words. The search is case insensitive.',
-'Censoring enabled'			=>	'<strong>Censoring is enabled in %s.</strong>',
-'Censoring disabled'		=>	'<strong>Censoring is disabled in %s.</strong>',
-'Censored word label'		=>	'Censored word',
-'Replacement label'			=>	'Replacement word(s)',
-'Edit remove words'			=>	'Edit or remove words',
-'No words in list'			=>	'No censor words in list.',
+'Must enter word message'	=>	'Musisz wpisać słowo do ocenzurowania.',
+'Add word subhead'			=>	'Dodaj słowo',
+'Add word info'				=>	'Wpisz słowo, które chcesz cenzurować, a następnie tekst zastępczy dla tego słowa.  Można użyć znaku * w celu zastąpienia ciągu znaków (np. *nie* będzie pasowało zarówno do ładnie jak i niegdyś). Cenzura słów działa także na nazwy użytkowników. Nowi użytkownicy nie będą mogli zarejestrować się, jeśli w podanej przez nich nazwie, będzie występowało jakiekolwiek cenzurowane słowo.  W przypadku cenzurowanych słów, nie jest rozróżniana wielkość znaków.',
+'Censoring enabled'			=>	'<strong>Cenzura słów jest włączona w menu %s.</strong>',
+'Censoring disabled'		=>	'<strong>Cenzura słów jest wyłączona w menu %s.</strong>',
+'Censored word label'		=>	'Słowo do ocenzurowania',
+'Replacement label'			=>	'Słowo na które zamienić',
+'Edit remove words'			=>	'Edytuj lub usuń słowa',
+'No words in list'			=>	'Brak wyrazów cenzurowanych.',
 
 //
 // Language fox database.php
 //
 
-'Backup options'		=>	'Backup options',
-'Backup type'			=>	'Backup type',
-'Full'					=>	'Full',
-'Structure only'		=>	'Structure only',
-'Data only'				=>	'Data only',
-'Gzip compression'		=>	'Gzip compression',
-'Start backup'			=>	'Start backup',
+'Backup options'		=>	'Opcje kopii zapasowej',
+'Backup type'			=>	'Typ kopii zapasowej',
+'Full'					=>	'Pełna',
+'Structure only'		=>	'Tylko struktura',
+'Data only'				=>	'Tylko dane',
+'Gzip compression'		=>	'Kompresja Gzip',
+'Start backup'			=>	'Rozpocznij tworzenie kopii zapasowej',
 
-'Backup info 1'			=>	'If your server supports it, you may also gzip-compress the file to reduce its size.',
+'Backup info 1'			=>	'Jeśli twój serwer to obsługuje, możesz skorzystać z kompresji gzip, żeby zmniejszyć rozmiar pliku.',
 
-'Restore complete'		=>	'Restore complete',
-'Restore options'		=>	'Restore options',
-'Start restore'			=>	'Start restore',
+'Restore complete'		=>	'Zakończono przywracanie kopii zapasowej',
+'Restore options'		=>	'Opcje przywracania',
+'Start restore'			=>	'Rozpocznij przywracanie kopii zapasowej',
 
-'Restore info 1'		=>	'This will perform a full restore of all ModernBB tables from a saved file. If your server supports it, you may upload a gzip-compressed text file and it will automatically be decompressed. This will overwrite any existing data. The restore may take a long time to process, so please do not move from this page until it is complete.',
+'Restore info 1'		=>	'Dzięki tej funkcji, można w pełni przywrócić wszystkie tabele ModernBB, z zapisanego pliku. Jeśli twój serwer to obsługuje, możesz użyć spakowanych plików gzip, będą one rozpakowane automatycznie na serwerze. Przywracanie napisze wszystkie, istniejące dane. Proces przywracania może potrwać kilka minut. Do czasu zakończenia tego procesu, nie przechodź na inną stronę.',
 
-'Warning'				=>	'Warning: critical features',
+'Warning'				=>	'Ostrzeżenie: funkcje krytyczne dla działania forum',
 
-'Additional functions'	=>	'Additional functions',
-'Repair all tables'		=>	'Repair all tables',
-'Optimise all tables'	=>	'Optimise all tables',
+'Additional functions'	=>	'Dodatkowe funkcje',
+'Repair all tables'		=>	'Napraw wszystkie tabele',
+'Optimise all tables'	=>	'Optymalizuj wszystkie tabele',
 
-'Additional info 1'		=>	'Additional features to help run a database, optimise and repair both do what they say.',
+'Additional info 1'		=>	'Dodatkowe funkcje pomagające w utrzymaniu bazy danych, umożliwiające jej naprawę i optymalizację.',
 
 //
 // Language for appearance.php, settings.php, email.php and features.php
 //
 
-'Bad HTTP Referer message'			=>	'Bad HTTP_REFERER. If you have moved these forums from one location to another or switched domains, you need to update the Base URL manually in the database (look for o_base_url in the config table) and then clear the cache by deleting all .php files in the /cache directory.',
-'Must enter title message'			=>	'You must enter a title.',
-'SMTP passwords did not match'		=>	'You need to enter the SMTP password twice exactly the same to change it.',
-'Enter announcement here'			=>	'Enter your announcement here.',
-'Enter rules here'					=>	'Enter your rules here.',
-'Default maintenance message'		=>	'The forums are temporarily down for maintenance. Please try again in a few minutes.',
-'Timeout error message'				=>	'The value of "Timeout online" must be smaller than the value of "Timeout visit".',
+'Bad HTTP Referer message'			=>	'Złe odniesienie HTTP_REFERER. Jeśli przenoszono forum na inne miejsce lub zmieniano domenę, trzeba ręcznie zaktualizować adres URL forum w bazie danych (szukaj wartości o_base_url, w tabeli konfiguracji). Następnie, trzeba wyczyścić pamięć podręczną, poprzez usunięcie wszystkich plików .php w folderze /cache.',
+'Must enter title message'			=>	'Musisz wpisać temat.',
+'SMTP passwords did not match'		=>	'Musisz dwukrotnie wpisać hasło SMTP, żeby je zmienić.',
+'Enter announcement here'			=>	'Wpisz treść ogłoszenia.',
+'Enter rules here'					=>	'Wpisz tutaj treść ogłoszenia.',
+'Default maintenance message'		=>	'Forum jest chwilowo wyłączone w celach konserwacyjnych. Proszę spróbować ponownie za kilka minut.',
+'Timeout error message'				=>	'Wartość "Okresu bezczynności" musi być mniejsza niż wartość "Czasu wygaśnięcia sesji".',
 
 //
 // Language for appearance.php
 //
 
-'Header appearance'					=>	'Header appearance',
-'Footer appearance'					=>	'Footer appearance',
-'Footer'							=>	'Footer',
-'Display head'						=>	'Display settings',
-'Default style help'				=>	'The default style will be used by new users and guests. Users can change the style they use, so changing the default style here won\'t change the design for already existing users. You can also force a style, this will reset the style setting for every user except the guest user.',
-'About style'						=>	'About %s',
-'version'							=>	'version %s',
-'Released on'						=>	'Released on %s',
-'Designed for'						=>	'Designed for ModernBB %s to %s',
-'Force style'						=>	'Force style',
-'Set as default'					=>	'Set as default',
-'About'								=>	'About',
-'Version number help'				=>	'Show ModernBB version number in footer.',
-'Info in posts help'				=>	'Show information about the poster under the username in topic view.',
-'Post count help'					=>	'Show the number of posts a user has made in topic view, profile and user list.',
-'Smilies help'						=>	'Convert smilies to small graphic icons in forum posts.',
-'Smilies sigs help'					=>	'Convert smilies to small graphic icons in user signatures.',
-'Clickable links help'				=>	'Convert URLs automatically to clickable hyperlinks.',
-'Topic review label'				=>	'Topic review',
-'Topic review help'					=>	'Maximum amount of posts showed when posting',
-'Topics per page help'				=>	'Default amount of topics per page',
-'Posts per page label'				=>	'Posts per page',
-'Posts per page help'				=>	'Default amount of posts per page',
-'Indent label'						=>	'Indent size',
-'Index panels head'					=>	'Index settings',
-'Moderated by help'                 =>  'Show the "Moderated by" list when moderators are set on a per-forum base.',
-'Index statistics help'				=>	'Show the statistics panel on the index.',
-'Indent help'						=>	'Amount of spaces that represent a tab',
-'Quote depth label'					=>	'Maximum [quote] depth',
-'Quote depth help'					=>	'Maximum [quote] can be used in [quote]',
-'Video height'                      =>  'Video height',
-'Video height help'                 =>  'Height of an embedded video',
-'Video width'                       =>  'Video width',
-'Video width help'                  =>  'Width of an embedded video',
-'Menu items head'					=>	'Additional menu items',
-'Menu items help'					=>	'This feature allows you to add more menu items to the navigation bar on every page. The format for adding new links is <code>X = &lt;a href="URL"&gt;LINK&lt;/a&gt;</code> where X is the position at which the link should be inserted. Separate entries with a line break.',
-'Default menu'						=>	'Default menu items',
-'Menu show index'					=>	'Show the index menu item.',
-'Menu show user list'				=>	'Show the user list menu item.',
-'Menu show search'					=>	'Show the search menu item.',
-'Menu show rules'					=>	'Show the rules menu item.',
-'User profile head'					=>	'User profile',
-'Title settings head'				=>	'Title settings',
-'Title in menu'						=>	'Show board title in menu.',
-'Title in header'					=>	'Show board title in header.',
-'Description in header'				=>	'Show board description in header.',
-'Description settings head'			=>	'Description settings',
+'Header appearance'					=>	'Wygląd nagłówka',
+'Footer appearance'					=>	'Wygląd stopki',
+'Footer'							=>	'Stopka',
+'Display head'						=>	'Ustawienia wyświetlania',
+'Default style help'				=>	'Styl domyślny będzie używany przez nowych użytkowników i gości. Użytkownicy mogą wybrać swój preferowany styl w ustawieniach profilu, zmiana domyślnego stylu, nie będzie miała na niech wpływu. Można także wymusić używanie stylu, co spowoduje nadpisanie używanego stylu dla wszystkich użytkowników za wyjątkiem gości.',
+'About style'						=>	'Informacje o %s',
+'version'							=>	'wersja %s',
+'Released on'						=>	'Wydano %s',
+'Designed for'						=>	'Zaprojektowany dla ModernBB %s do %s',
+'Force style'						=>	'Wymuś użycie stylu',
+'Set as default'					=>	'Ustaw jako domyślny',
+'About'								=>	'Informacje',
+'Version number help'				=>	'Pokazuj wersję ModernBB w stopce.',
+'Info in posts help'				=>	'Pokazuj informacje o użytkowniku, pod jego nazwą, w widoku wątku.',
+'Post count help'					=>	'Pokazuj liczbę postów użytkownika w widoku wątku, profilu i na liście użytkowników.',
+'Smilies help'						=>	'Pokazuj graficzne emotki w postach.',
+'Smilies sigs help'					=>	'Pokazuj graficzne emotki w podpisach użytkowników.',
+'Clickable links help'				=>	'Przekształcaj odnośniki w wersje klikalne.',
+'Topic review label'				=>	'Podgląd wątku',
+'Topic review help'					=>	'Ilość postów do wyświetlenia w podglądzie',
+'Topics per page help'				=>	'Domyślna ilość wątków na stronę',
+'Posts per page label'				=>	'Postów na stronę',
+'Posts per page help'				=>	'Domyślna ilość postów na stronę',
+'Indent label'						=>	'Głębokość wcięcia',
+'Index panels head'					=>	'Ustawienia strony głównej',
+'Moderated by help'                 =>  'Pokazuj listę "Moderowane przez" kiedy moderatorzy są ustawieni na postawie forów.',
+'Index statistics help'				=>	'Pokazuj statystyki na stronie głównej.',
+'Indent help'						=>	'Ilość spacji które będą tworzyły wcięcie',
+'Quote depth label'					=>	'Maksymalna głębokość cytowania [quote]',
+'Quote depth help'					=>	'Maksymalna ilość znaczników [quote] która może być użyta w [quote]',
+'Video height'                      =>  'Wysokość wideo',
+'Video height help'                 =>  'Wysokość osadzonego wideo',
+'Video width'                       =>  'Szerokość wideo',
+'Video width help'                  =>  'Szerokość osadzonego wideo',
+'Menu items head'					=>	'Dodatkowe pozycje menu',
+'Menu items help'					=>	'Ta opcja pozwala na dodanie do menu dodatkowych pozycji, które będą wyświetlały się na każdej stronie. Nowe odnośniki powinny by dodawane w formacie <code>X = &lt;a href="Adres URL odnośnika"&gt;Nazwa odnośnika&lt;/a&gt;</code> X oznacza pozycję, gdzie ma zostać umieszczony odnośnik. Poszczególne pozycje umieszczaj w nowych wierszach.',
+'Default menu'						=>	'Domyślne pozycje menu',
+'Menu show index'					=>	'Pokazuj odnośnik do strony głównej.',
+'Menu show user list'				=>	'Pokazuj odnośnik do listy użytkowników.',
+'Menu show search'					=>	'Pokazuj odnośnik do wyszukiwarki.',
+'Menu show rules'					=>	'Pokazuj odnośnik do Regulaminu.',
+'User profile head'					=>	'Profil użytkownika',
+'Title settings head'				=>	'Ustawienia nazwy forum',
+'Title in menu'						=>	'Pokazuj w menu nazwę forum .',
+'Title in header'					=>	'Pokazuj nazwę forum w nagłówku.',
+'Description in header'				=>	'Pokazuj opis forum w nagłówku.',
+'Description settings head'			=>	'Ustawienia opisu forum',
 
 //
 // Language for email.php
 //
 
-'Contact head'						=>	'Contact settings',
-'Admin e-mail label'				=>	'Admin email',
-'Admin e-mail help'					=>	'The admins email',
-'Webmaster e-mail label'			=>	'Webmaster email',
-'Webmaster e-mail help'				=>	'The email where the boards mails will be addressed from',
-'Subscriptions head'				=>	'Subscriptions',
-'Forum subscriptions help'			=>	'Enable users to subscribe to forums.',
-'Topic subscriptions help'			=>	'Enable users to subscribe to topics.',
-'SMTP head'							=>	'SMTP settings',
-'SMTP address label'				=>	'SMTP server address',
-'SMTP address help'					=>	'The address of an external SMTP server to send emails with',
-'SMTP username label'				=>	'SMTP username',
-'SMTP username help'				=>	'Username for SMTP server, only if required',
-'SMTP password label'				=>	'SMTP password',
-'SMTP change password help'			=>	'Check this if you want to change or delete the currently stored password.',
-'SMTP password help'				=>	'Password and confirmation for SMTP server, only when required',
-'SMTP SSL help'						=>	'Encrypts the connection to the SMTP server using SSL, only when required and supported.',
+'Contact head'						=>	'Ustawienia kontaktu',
+'Admin e-mail label'				=>	'E-mail Administratora',
+'Admin e-mail help'					=>	'Adres e-mail Administratora',
+'Webmaster e-mail label'			=>	'Adres e-mail Webmastera',
+'Webmaster e-mail help'				=>	'Adres, z którego będzie rozsyłana korespondencja',
+'Subscriptions head'				=>	'Obserwowane',
+'Forum subscriptions help'			=>	'Pozwól użytkownikom obserwować fora.',
+'Topic subscriptions help'			=>	'Pozwól użytkownikom obserwować wątki.',
+'SMTP head'							=>	'Ustawienia SMTP',
+'SMTP address label'				=>	'Adres serwera SMTP',
+'SMTP address help'					=>	'Adres zewnętrznego serwera SMTP, używanego do wysyłania wiadomości e-mail',
+'SMTP username label'				=>	'Nazwa użytkownika SMTP',
+'SMTP username help'				=>	'Nazwa użytkownika serwer SMTP, tylko jeśli jest wymagana',
+'SMTP password label'				=>	'Hasło SMTP',
+'SMTP change password help'			=>	'Zaznacz to, jeśli chcesz zmienić bądź usunąć obecnie zachowane hasło.',
+'SMTP password help'				=>	'Hasło i jego potwierdzenie do serwera SMTP, tylko jeśli jest wymagane',
+'SMTP SSL help'						=>	'Szyfruj połączenia z serwerem SMTP przy użyciu protokołu SSL, tylko wtedy, gdy wymagane i wspierane.',
 
 //
 // Language for features.php
 //
 
-'Features head'						=>	'Features settings',
-'General'							=>	'General',
-'Topics and posts'					=>	'Topics and posts',
-'User features'						=>	'User features',
-'Search'							=>	'Search',
-'Advanced'							=>	'Advanced',
-'Quick post help'					=>	'Show a quick post form so users can post a reaction from the topic view.',
-'Responsive post help'              =>  'Show "Post" and "Preview" button in topic view on small screens, leave quick post enabled when this is disabled to allow small devices to post comments.',
-'Users online help'					=>	'Display info on the index page about users currently browsing the board.',
-'Censor words help'					=>	'Censor words in posts. See %s for more info.',
-'Signatures help'					=>	'Allow users to attach a signature to their posts.',
-'User ranks help'					=>	'Use user ranks. See %s for more info.',
-'Topic views help'					=>	'Show the number of views for each topic.',
-'Has posted help'					=>	'Show a label in front of the topics where users have posted.',
-'GZip help'							=>	'Gzip output sent to the browser. This will reduce bandwidth usage, but use some more CPU. This feature requires that PHP is configured with zlib. If you already have one of the Apache modules (mod_gzip/mod_deflate) set up to compress PHP scripts, disable this feature.',
-'Enable advanced search'			=>	'Allow users to use the advanced search options.',
-'Search all help'					=>	'Allow search only in 1 forum at a time.',
+'Features head'						=>	'Ustawienia funkcji',
+'General'							=>	'Ogólne',
+'Topics and posts'					=>	'Wątki i posty',
+'User features'						=>	'Opcje użytkownika',
+'Search'							=>	'Szukaj',
+'Advanced'							=>	'Zaawansowane',
+'Quick post help'					=>	'Pokaż szybką odpowiedź w widoku wątku.',
+'Responsive post help'              =>  'Pokazuj przyciski "Wyślij" i "Podgląd" w widoku wątku, na małych ekranach. Kiedy ta opcja jest wyłączona, powinna być włączona szybka odpowiedź, żeby umożliwić dodawanie postów użytkownikom, korzystającym z małych ekranów.',
+'Users online help'					=>	'Wyświetl na stronie głównej użytkowników aktualnie przeglądających forum.',
+'Censor words help'					=>	'Cenzoruj słowa w postach. Zobacz %s, żeby uzyskać więcej informacji.',
+'Signatures help'					=>	'Pozwól użytkownikom dołączać podpis do postów.',
+'User ranks help'					=>	'Używaj rang użytkowników. Zobacz %s, żeby uzyskać więcej informacji.',
+'Topic views help'					=>	'Pokazuj liczbę wyświetleń dla każdego wątku.',
+'Has posted help'					=>	'Pokazuj etykietę przed nazwami wątków, w których pisał użytkownik.',
+'GZip help'							=>	'Używaj kompresji Gzip. Zredukuje to zużycie transferu, ale zwiększy zużycie CPU.',
+'Enable advanced search'			=>	'Pozwól użytkownikom na korzystanie z zaawansowanych opcji wyszukiwania',
+'Search all help'					=>	'Pozwól wyszukiwać użytkownikom tylko w 1 forum jednocześnie.',
 
-'First run'							=>	'First run',
-'General settings'					=>	'General settings',
-'Show first run label'				=>	'Show the first run panel when an user logs in for the first time.',
-'Show guests label'					=>	'Show the first run panel to guests with login field and registration button.',
-'Welcome text'						=>	'Welcome text',
-'First run help message'			=>	'The introduction to the forum displayed in the middle of the first run panel',
+'First run'							=>	'Pierwsze uruchomienie',
+'General settings'					=>	'Ustawienia ogólne',
+'Show first run label'				=>	'Pokazuj panel powitalny gdy użytkownik zaloguje się po raz pierwszy.',
+'Show guests label'					=>	'Pokazuj panel powitalny gościom, razem formularzem logowania i przyciskiem rejestracji.',
+'Welcome text'						=>	'Tekst powitalny',
+'First run help message'			=>	'Tekst wyświetlany na środku panelu powitalnego',
 
 //
 // Language for forums.php
 //
 
-'Post must be integer message'	=>	'Position must be a positive integer value.',
-'New forum'						=>	'New forum',
+'Post must be integer message'	=>	'Numer pozycji musi być liczbą dodatnią.',
+'New forum'						=>	'Nowe forum',
 
 //
 // Entry page
 //
 
-'Add forum'					=>	'Add forum',
-'Update positions'			=>	'Update positions',
-'Confirm delete head'		=>	'Confirm delete forum',
-'Confirm delete forum info'	=>	'Are you sure that you want to delete the forum <strong>%s</strong>?',
-'Confirm delete forum'		=>	'Warning! Deleting a forum will delete all posts (if any) in that forum!',
+'Add forum'					=>	'Dodaj forum',
+'Update positions'			=>	'Aktualizuj pozycje',
+'Confirm delete head'		=>	'Potwierdź usunięcie forum',
+'Confirm delete forum info'	=>	'Jesteś pewien, że chcesz usunąć forum <strong>%s</strong>?',
+'Confirm delete forum'		=>	'Ostrzeżenie! Usunięcie forum spowoduje także usunięcie istniejących w nim postów!',
 
 //
 // Detailed edit page
 //
 
-'Edit forum head'			=>	'Edit forum',
-'Edit details subhead'		=>	'Edit forum details',
-'Forum name label'			=>	'Forum name',
-'Forum description label'	=>	'Description',
-'Category label'			=>	'Category',
-'Sort by label'				=>	'Sort topics by',
-'Topic start'				=>	'Topic start',
-'User groups'				=>	'User groups',
-'Redirect label'			=>	'Redirect URL',
-'Group permissions subhead'	=>	'Edit group permissions',
-'Group permissions info'	=>	'In this form, you can set the forum specific permissions for the different user groups. Administrators always have full permissions. Permission settings that differ from the default permissions for the user group are marked red. Some permissions are disabled under some conditions.',
-'Read forum label'			=>	'Read forum',
-'Post replies label'		=>	'Post replies',
-'Post topics label'			=>	'Post topics',
-'Revert to default'			=>	'Revert to default',
+'Edit forum head'			=>	'Edytuj forum',
+'Edit details subhead'		=>	'Edytuj szczegóły forum',
+'Forum name label'			=>	'Nazwa forum',
+'Forum description label'	=>	'Opis',
+'Category label'			=>	'Kategoria',
+'Sort by label'				=>	'Sortowanie wątków po',
+'Topic start'				=>	'Rozpoczęcie wątku',
+'User groups'				=>	'Grupy użytkownika',
+'Redirect label'			=>	'Adres URL przekierowania',
+'Group permissions subhead'	=>	'Edytuj uprawnienia grupy',
+'Group permissions info'	=>	'Tutaj możesz ustawić specyficzne uprawnienia dla każdej z grup użytkowników. Administratorzy mają zawsze pełne uprawnienia. Ustawienia uprawnień, które różnią się od domyślnych uprawnień dla grupy użytkowników, są zaznaczone na czerwono. Niektóre uprawnienia są wyłączone w określonych warunkach.',
+'Read forum label'			=>	'Czytanie forum',
+'Post replies label'		=>	'Dodawanie odpowiedzi',
+'Post topics label'			=>	'Tworzenie wątków',
+'Revert to default'			=>	'Przywróć wartości domyślne',
 
 //
 // Language used in groups.php
 //
 
-'Title already exists message'	=>	'There is already a group with the title <strong>%s</strong>.',
-'Cannot remove default message'	=>	'The default group cannot be removed. In order to delete this group, you must first setup a different group as the default.',
+'Title already exists message'	=>	'Istnieje już grupa z tytułem <strong>%s</strong>.',
+'Cannot remove default message'	=>	'Domyślne grupy nie mogą być usunięte. Jeśli chcesz usunąć tę grupę, najpierw musisz ustawić inną grupę jako domyślną.',
 
-'Add group subhead'				=>	'Add new group',
-'Create new group'				=>	'Select a user group from which the new group will inherit its permission settings.',
-'Default group subhead'			=>	'Set default group',
-'Default group help'			=>	'This is the default user group, e.g. the group users are placed in when they register. Not all groups are available here.',
-'Existing groups head'			=>	'Existing groups',
-'Edit groups info'				=>	'The pre-defined groups can\'t be removed. However, they can be edited. Please note that in some groups, some options are unavailable. Administrators always have full permissions.',
-'Group delete head'				=>	'Group delete',
-'Confirm delete info'			=>	'Are you sure that you want to delete the group <strong>%s</strong>?',
-'Confirm delete warn'			=>	'<b>Warning:</b> After you deleted a group you cannot restore it.',
-'Delete group'					=>	'Delete group',
-'Move users info'				=>	'The group <strong>%s</strong> currently has <strong>%s</strong> members. Please select a group to which these members will be assigned upon deletion.',
-'Move users label'				=>	'Move users to',
+'Add group subhead'				=>	'Dodaj nową grupę',
+'Create new group'				=>	'Wybierz grupę po której nowa grupa użytkowników odziedziczy ustawienia uprawnień.',
+'Default group subhead'			=>	'Grupa domyślna',
+'Default group help'			=>	'Jest to domyślna grupa dla nowo zarejestrowanych użytkowników. Nie wszystkie grupy są tutaj widoczne.',
+'Existing groups head'			=>	'Istniejące grupy',
+'Edit groups info'				=>	'Istniejące grupy nie mogą być usunięte. Jednakże, można je edytować. Proszę zauważyć, że niektóre opcje są niedostępne. Administratorzy mają zawsze pełne uprawnienia.',
+'Group delete head'				=>	'Usuwanie grupy',
+'Confirm delete info'			=>	'Jesteś pewien, że chcesz usunąć grupę <strong>%s</strong>?',
+'Confirm delete warn'			=>	'<b>Ostrzeżenie:</b> Po usunięciu grupy, nie będzie można jej przywrócić.',
+'Delete group'					=>	'Usuń grupę',
+'Move users info'				=>	'Grupa <strong>%s</strong> posiada obecnie <strong>%s</strong> członków. Proszę wybrać grupę, do której mają zostać przeniesieni użytkownicy.',
+'Move users label'				=>	'Przenieś użytkowników do',
 
-'Group settings head'			=>	'Group settings',
-'Group settings subhead'		=>	'Setup group options and permissions',
-'Group settings info'			=>	'Below options and permissions are the default permissions for the user group. These options apply if no forum specific permissions are in effect.',
-'Group title label'				=>	'Group title',
-'User title label'				=>	'User title',
-'User title help'				=>	'The title will override the user rank',
-'Mod privileges label'			=>	'Moderator privileges',
-'Mod privileges help'			=>	'In order for a user to have moderator abilities, they must be assigned to moderate one or more forums. This is done via the user administration page of the user\'s profile.',
-'Edit profile label'			=>	'Edit user profiles',
-'Edit profile help'				=>	'If moderator privileges are enabled, allow users to edit user profiles.',
-'Rename users label'			=>	'Rename users',
-'Rename users help'				=>	'If moderator privileges are enabled, allow users to rename users.',
-'Change passwords label'		=>	'Change passwords',
-'Change passwords help'			=>	'If moderator privileges are enabled, allow users to change user passwords.',
-'Ban users help'				=>	'If moderator privileges are enabled, allow users to ban users.',
-'Read board label'				=>	'Read board',
-'Read board help'				=>	'If this is disabled, users will only be able to login and logout.',
-'View user info label'			=>	'View user information',
-'View user info help'			=>	'Allow users to view the user list and user profiles.',
-'Post replies help'				=>	'Allow users to post replies in topics.',
-'Post topics help'				=>	'Allow users to post new topics.',
-'Edit posts label'				=>	'Edit posts',
-'Edit posts help'				=>	'Allow users to edit their own posts.',
-'Delete posts help'				=>	'Allow users to delete their own posts.',
-'Delete topics help'			=>	'Allow users to delete their own topics (including any replies).',
-'Set own title label'			=>	'Set own user title',
-'Set own title help'			=>	'Allow users to set their own user title.',
-'User search label'				=>	'Use search',
-'User search help'				=>	'Allow users to use the search feature.',
-'User list search label'		=>	'Search user list',
-'User list search help'			=>	'Allow users to search for other users in the user list.',
-'Send e-mails label'			=>	'Send e-mails',
-'Send e-mails help'				=>	'Allow users to send e-mails to other users.',
-'Post flood label'				=>	'Post flood interval',
-'Post flood help'				=>	'Time users have to wait between posts',
-'Search flood label'			=>	'Search flood interval',
-'Search flood help'				=>	'Time users have to wait between searches',
-'E-mail flood label'			=>	'Email flood interval',
-'E-mail flood help'				=>	'Time users have to wait between emails',
-'Report flood label'			=>	'Report flood interval',
-'Report flood help'				=>	'Time users have to wait between reports',
-'Moderator info'				=>	'Please note that in order for a user to have moderator abilities, they must be assigned to moderate one or more forums. This is done via the user administration page of the user\'s profile.',
-'seconds'						=>	'seconds',
-'pixels'						=>	'pixels',
+'Group settings head'			=>	'Ustawienia grupy',
+'Group settings subhead'		=>	'Ustawienia uprawnień i opcji grupy',
+'Group settings info'			=>	'Poniższe ustawienia i uprawnienia są domyślne dla grupy użytkownika. Mają zastosowanie wtedy, kiedy forum nie ma ustawionych innych, specyficznych uprawnień.',
+'Group title label'				=>	'Tytuł grupy',
+'User title label'				=>	'Tytuł użytkownika',
+'User title help'				=>	'Tytuł nadpisze rangę użytkownika',
+'Mod privileges label'			=>	'Przywileje moderatora',
+'Mod privileges help'			=>	'Żeby użytkownik mógł wykorzystać uprawnienia moderatora, musi być przypisany do moderowania jednego lub więcej forów. Można to ustawić w profilu danego użytkownika.',
+'Edit profile label'			=>	'Edycja profili użytkownika',
+'Edit profile help'				=>	'Jeśli przywileje są włączone, pozwól użytkownikom edytować profile innych użytkowników',
+'Rename users label'			=>	'Zmiana nazwy użytkownika',
+'Rename users help'				=>	'Jeśli przywileje są włączone, pozwól użytkownikom zmieniać nazwę innych użytkowników',
+'Change passwords label'		=>	'Zmienianie haseł',
+'Change passwords help'			=>	'Jeśli przywileje są włączone, pozwól użytkownikom zmieniać hasła innych użytkowników',
+'Ban users help'				=>	'Jeśli przywileje są włączone, pozwól użytkownikom blokować innych użytkowników',
+'Read board label'				=>	'Może przeglądać forum',
+'Read board help'				=>	'Jeśli ta opcja jest wyłączona, użytkownik będzie się mógł tylko zalogować i wylogować.',
+'View user info label'			=>	'Może przeglądać informacje o użytkownikach',
+'View user info help'			=>	'Pozwalaj użytkownikom przeglądać listę użytkowników i ich profile.',
+'Post replies help'				=>	'Pozwalaj użytkownikom odpowiadać w wątkach.',
+'Post topics help'				=>	'Pozwalaj użytkownikom dodawać nowe wątki.',
+'Edit posts label'				=>	'Edycja postów',
+'Edit posts help'				=>	'Pozwalaj użytkownikom edytować ich własne posty.',
+'Delete posts help'				=>	'Pozwalaj użytkownikom usuwać ich własne posty.',
+'Delete topics help'			=>	'Pozwalaj użytkownikom usuwać ich własne wątki (włączając w to odpowiedzi).',
+'Set own title label'			=>	'Ustawianie własnego tytułu',
+'Set own title help'			=>	'Pozwalaj użytkownikom ustawiać własny tytuł.',
+'User search label'				=>	'Wyszukiwanie',
+'User search help'				=>	'Pozwalaj użytkownikom na korzystanie z wyszukiwarki.',
+'User list search label'		=>	'Wyszukiwanie użytkowników',
+'User list search help'			=>	'Pozwalaj użytkownikom na wyszukiwanie na liście użytkowników.',
+'Send e-mails label'			=>	'Wysyłanie wiadomości',
+'Send e-mails help'				=>	'Pozwalaj użytkownikom na wysyłanie wiadomości e-mail do innych użytkowników.',
+'Post flood label'				=>	'Częstość dodawania postów',
+'Post flood help'				=>	'Czas, jaki użytkownicy muszą odczekać przed dodaniem kolejnego posta',
+'Search flood label'			=>	'Częstość wyszukiwania',
+'Search flood help'				=>	'Czas, jaki użytkownicy muszą odczekać przed kolejnym wyszukiwaniem',
+'E-mail flood label'			=>	'Częstość wysyłania wiadomości',
+'E-mail flood help'				=>	'Czas, jaki użytkownicy muszą odczekać przed wysłaniem kolejnej wiadomości e-mail',
+'Report flood label'			=>	'Częstość zgłaszania',
+'Report flood help'				=>	'Czas, jaki użytkownicy muszą odczekać przed wysłaniem kolejnego zgłoszenia',
+'Moderator info'				=>	'Żeby użytkownik mógł wykorzystać uprawnienia moderatora, musi być przypisany do moderowania jednego lub więcej forów. Można to ustawić w profilu danego użytkownika.',
+'seconds'						=>	'sekund',
+'pixels'						=>	'pikseli',
 
 //
 // Language used in index.php and update.php for Backstage
 //
 
-'ModernBB intro'					=>	'Welcome to ModernBB',
-'Backup head'						=>	'Back-up',
-'Backup info'						=>	'Create new database backup.',
-'Backup button'						=>	'Create new backup',
-'New reports head'					=>	'New reports',
-'Statistics head'					=>	'Statistics',
-'Updates'							=>	'Updates',
-'View all'							=>	'View all',
-'posts'								=>	'posts',
-'replies'							=>	'replies',
-'reply'								=>	'reply',
-'topics'							=>	'topics',
-'views'								=>	'views',
-'view'								=>	'view',
-'users'								=>	'users',
+'ModernBB intro'					=>	'Witamy w ModernBB',
+'Backup head'						=>	'Kopia zapasowa',
+'Backup info'						=>	'Utwórz kopię zapasową bazy danych.',
+'Backup button'						=>	'Utwórz kopię zapasową',
+'New reports head'					=>	'Nowe zgłoszenia',
+'Statistics head'					=>	'Statystyki',
+'Updates'							=>	'Aktualizacje',
+'View all'							=>	'Zobacz wszystkie',
+'posts'								=>	'postów',
+'replies'							=>	'odpowiedzi',
+'reply'								=>	'odpowiedź',
+'topics'							=>	'wątków',
+'views'								=>	'wyświetleń',
+'view'								=>	'wyświetlono',
+'users'								=>	'użytkowników',
 
-'Not available'						=>	'Not available',
-'NA'								=>	'N/A',
-'About head'						=>	'About ModernBB',
-'ModernBB version label'			=>	'ModernBB version',
-'ModernBB version data'				=>	'ModernBB version ',
-'Server statistics label'			=>	'Server statistics',
-'View server statistics'			=>	'View server statistics',
+'Not available'						=>	'Informacja niedostępna',
+'NA'								=>	'nd',
+'About head'						=>	'Informacje o ModernBB',
+'ModernBB version label'			=>	'Wersja ModernBB',
+'ModernBB version data'				=>	'Wersja ModernBB ',
+'ModernBB core label'				=>	'Rdzeń ModernBB',
+'ModernBB core data'				=>	'Rdzeń ModernBB ',
+'Server statistics label'			=>	'Statystyki serwera',
+'View server statistics'			=>	'Zobacz statystyki serwera',
 
-'ModernBB software updates'			=>	'ModernBB software updates',
-'ModernBB updates'					=>	'ModernBB updates',
-'Check for updates'					=>	'Check for updates',
-'New version'						=>	'It\'s time to update, a new version is available',
-'Latest version'					=>	'Thanks for using the latest version of ModernBB',
-'Development version'				=>	'You\'re using a development release',
+'ModernBB software updates'			=>	'Aktualizacje skryptu ModernBB',
+'ModernBB updates'					=>	'Aktualizacje ModernBB',
+'Check for updates'					=>	'Sprawdź czy są aktualizacje',
+'New version'						=>	'Czas na aktualizację, nowa wersja jest już dostępna',
+'Latest version'					=>	'Dziękujemy za używanie najnowszej wersji ModernBB',
+'Development version'				=>	'Używasz wydania developerskiego',
 
-'Reset head'						=>	'ModernBB reset features',
-'Soft reset'						=>	'Soft reset',
-'Soft reset help'					=>	'The button below will remove the config.php file, this will cause the install to start so you can install ModernBB again. This will not drop the current database. This might be effective if your config.php file is corrupt. This can\'t be undone. Be sure you made a back-up before doing this.',
-'Hard reset'						=>	'Hard reset',
-'Reset config'						=>	'Reset config.php',
-'Hard reset help'					=>	'The button below will remove the config.php file and database, this will cause the install to start so you can install ModernBB again. You will lose all your data. This can\'t be undone. Be sure you made a back-up before doing this.',
+'Reset head'						=>	'Funkcje resetowanie ModernBB',
+'Soft reset'						=>	'Miękki reset',
+'Soft reset help'					=>	'Poniższy przycisk spowoduje usunięcie pliku config.php, co spowoduje rozpoczęcie instalacji ModernBB. Użycie tej opcji, nie spowoduje usunięcia bazy danych. Funkcja ta, może okazać się przydatna w przypadku uszkodzenia pliku config.php. Uwaga, tych zmian nie można cofnąć. Zanim użyjesz tej funkcji, zalecane jest wykonanie kopii zapasowej.',
+'Hard reset'						=>	'Twardy reset',
+'Reset config'						=>	'Resetuj config.php',
+'Hard reset help'					=>	'Poniższy przycisk spowoduje usunięcie pliku config.php oraz bazy danych, co spowoduje rozpoczęcie instalacji ModernBB. Stracisz wszystkie dane. Uwaga, tych zmian nie można cofnąć. Zanim użyjesz tej funkcji, zalecane jest wykonanie kopii zapasowej.',
 'Reset'								=>	'Reset',
 
 //
 // Reports
 //
 
-'Date and time'						=>	'Date and time',
-'No new reports'					=>	'There are no new reports.',
+'Date and time'						=>	'Data i czas',
+'No new reports'					=>	'Brak nowych zgłoszeń.',
 
 //
 // Language for maintenance.php
 //
 
-'Rebuild index subhead'			=>	'Rebuild search index',
-'Rebuild index info'			=>	'If you changes something about topics and posts in the database you should rebuild the search index. It\'s recommended to activate %s during rebuilding. This can take a while and can increase the server load during the process!',
-'Posts per cycle label'			=>	'Posts per cycle',
-'Posts per cycle help'			=>	'Number of posts per pageview, this prevents a timeout, 300 recommended',
-'Starting post label'			=>	'Starting post ID',
-'Starting post help'			=>	'The ID where to start, default is first ID found in database',
-'Empty index label'				=>	'Empty index',
-'Empty index help'				=>	'Select this if you want the search index to be emptied before rebuilding (see below).',
-'Rebuild completed info'		=>	'Be sure to enable JavaScript during the rebuild (to start a new cycle automatically). When you have to abort the rebuilding, remember the last post ID and enter that ID+1 in "Starting post ID" if you want to continue (Uncheck "Empty index").',
-'Rebuild index'					=>	'Rebuild index',
-'Rebuilding search index'		=>	'Rebuilding search index',
-'Rebuilding index info'			=>	'Rebuilding index. This might be a good time to put on some coffee :-)',
-'Processing post'				=>	'Processing post <strong>%s</strong> …',
-'Click here'					=>	'Click here',
-'Javascript redirect failed'	=>	'JavaScript redirect unsuccessful. %s to continue …',
-'Posts must be integer message'	=>	'Posts per cycle must be a positive integer value.',
-'Days must be integer message'	=>	'Days to prune must be a positive integer value.',
-'No old topics message'			=>	'There are no topics that are %s days old. Please decrease the value of "Days old" and try again.',
-'Prune subhead'					=>	'Prune old posts',
-'Days old label'				=>	'Days old',
-'Days old help'					=>	'The number of days old a topic must be to be pruned',
-'Prune sticky label'			=>	'Prune sticky topics',
-'Prune from label'				=>	'Prune from forum',
-'Prune from help'				=>	'What shall we prune?',
-'Prune info'					=>	'It\'s recommended to activate %s during pruning.',
-'Confirm prune subhead'			=>	'Confirm prune posts',
-'Confirm prune info'			=>	'Are you sure that you want to prune all topics older than %s days from %s (%s topics).',
-'Confirm prune warn'			=>	'WARNING! Pruning posts deletes them permanently.',
+'Rebuild index subhead'			=>	'Przebuduj indeks wyszukiwania',
+'Rebuild index info'			=>	'Jeśli zmieniano coś w wątkach i postach w bazie danych, powinno się przebudować indeks wyszukiwania. Na czas przebudowy, zaleca się aktywować %s. Ten proces może potrwać klika minut oraz zwiększyć obciążenie serwera!',
+'Posts per cycle label'			=>	'Postów na cykl',
+'Posts per cycle help'			=>	'Ilość postów na cykl, zapobiega to  wygaśnięciu sesji, zalecana wartość to 300',
+'Starting post label'			=>	'ID pierwszego posta',
+'Starting post help'			=>	'ID posta, od którego rozpocząć przebudowę, domyślnie jest to pierwsze ID znalezione w bazie danych',
+'Empty index label'				=>	'Opróżnij indeks',
+'Empty index help'				=>	'Wybierz tę opcję jeśli chcesz wyczyścić indeks wyszukiwania przez przebudową (zobacz niżej).',
+'Rebuild completed info'		=>	'Upewnij się że JavaScript jest włączony na czas przebudowy (automatyczne rozpoczynanie cyklu). Jeśli występuje potrzeba przerwania procesu, zapamiętaj ID ostatniego posta. Następnie, jeśli chcesz kontynuować w polu "ID pierwszego posta" wpisz wartość ID+1 (Odznacz opcję  "Opróżnij indeks").',
+'Rebuild index'					=>	'Przebuduj indeks',
+'Rebuilding search index'		=>	'Przebudowa indeksu wyszukiwania w toku',
+'Rebuilding index info'			=>	'Przebudowa indeksu. To jest odpowiedni moment, na przerwę z kubkiem kawy :-)',
+'Processing post'				=>	'Przetwarzanie posta <strong>%s</strong> …',
+'Click here'					=>	'Kliknij tutaj',
+'Javascript redirect failed'	=>	'Nieudane przekierowanie JavaScript. %s żeby kontynuować …',
+'Posts must be integer message'	=>	'Wartość "Postów na cykl" musi być dodatnia.',
+'Days must be integer message'	=>	'Wartość "Starsze niż … dni" musi być dodatnia.',
+'No old topics message'			=>	'Nie ma wątków starszych niż %s dni. Proszę zmniejszyć tę wartość i spróbować ponownie.',
+'Prune subhead'					=>	'Wyczyść stare posty',
+'Days old label'				=>	'Starsze niż … dni',
+'Days old help'					=>	'Jak stare muszą być wątki, żeby je wyczyścić',
+'Prune sticky label'			=>	'Czyść podpięte wątki',
+'Prune from label'				=>	'Czyść w forum',
+'Prune from help'				=>	'Co chcesz wyczyścić?',
+'Prune info'					=>	'Podczas czyszczenia wątków, zaleca się aktywować %s.',
+'Confirm prune subhead'			=>	'Potwierdź czyszczenie wątków',
+'Confirm prune info'			=>	'Jesteś pewien, że chcesz wyczyścić wszystkie wątki, starsze niż %s dni z %s (wątków: %s).',
+'Confirm prune warn'			=>	'OSTRZEŻENIE! Czyszczenie postów oznacza usuwa je na stałe.',
 
-'Prune users head'			=>	'Prune users',
-'Prune by'					=>	'Prune by',
-'Registed date'				=>	'Registered date',
-'Last login'				=>	'Last login',
-'Prune by info'				=>	'What should we count to prune?',
-'Minimum days'				=>	'Minimum days since registration/last login',
-'Minimum days info'			=>	'The minimum amount of days since event specified above',
-'Maximum posts'				=>	'Maximum number of posts',
-'Maximum posts info'		=>	'How many posts do you require before an users isn\'t pruned',
-'Delete admins'				=>	'Delete admins and mods',
-'User status'				=>	'User status',
-'Delete any'				=>	'Delete any',
-'Delete only verified'		=>	'Delete only verified',
-'Delete only unverified'	=>	'Delete only unverified',
+'Prune users head'			=>	'Czyszczenie użytkowników',
+'Prune by'					=>	'Czyść na podstawie',
+'Registed date'				=>	'Daty rejestracji',
+'Last login'				=>	'Ostatniego logowania',
+'Prune by info'				=>	'Co brać pod uwagę podczas czyszczenia?',
+'Minimum days'				=>	'Minimalna ilość dni od rejestracji/ostatniego logowania',
+'Minimum days info'			=>	'Minimalna ilość dni od wydarzenia określonego powyżej',
+'Maximum posts'				=>	'Maksymalna ilość postów',
+'Maximum posts info'		=>	'Ile postów musi mieć użytkownik, żeby nie go nie wyczyścić',
+'Delete admins'				=>	'Usuwaj administratorów i moderatorów',
+'User status'				=>	'Status użytkownika',
+'Delete any'				=>	'Usuwaj wszystkich',
+'Delete only verified'		=>	'Usuwaj tylko zweryfikowanych',
+'Delete only unverified'	=>	'Usuwaj tylko niezweryfikowanych',
 
 //
 // Language for settings.php
 //
 
-'Options head'						=>	'Global settings',
+'Options head'						=>	'Ustawienia ogólne',
 
 //
 // Essentials section
 //
 
-'Essentials subhead'				=>	'Essentials',
-'Board desc help'					=>	'What\'s this board about?',
-'Base URL label'					=>	'Board URL',
-'Base URL problem'					=>  'Your installation does not support automatic conversion of internationalized domain names. As your base URL contains special characters, you <strong>must</strong> use an online converter.',
-'Timezone label'					=>	'Default time zone',
-'DST help'							=>	'Advance time by 1 hour for daylight saving.',
-'Language help'						=>	'The default language',
+'Essentials subhead'				=>	'Podstawowe',
+'Board desc help'					=>	'O czym jest to forum?',
+'Base URL label'					=>	'Adres URL forum',
+'Base URL problem'					=>  'Twój serwer nie obsługuje automatycznej konwersji narodowych nazw domen, zawierających znaki specjalne. Jeśli adres URL forum zawiera takie znaki, <strong>musisz</strong> skorzystać z konwertera online.',
+'Timezone label'					=>	'Domyślna strefa czasowa',
+'DST help'							=>	'Przesuń czas o 1 godzinę do przodu (czas letni).',
+'Language help'						=>	'Domyślny język',
 
 //
 // Essentials section timezone options
 //
 
-'UTC-12:00'							=>	'(UTC-12:00) International Date Line West',
+'UTC-12:00'							=>	'(UTC-12:00) Międzynarodowa linia zmiany daty Zachód',
 'UTC-11:00'							=>	'(UTC-11:00) Niue, Samoa',
-'UTC-10:00'							=>	'(UTC-10:00) Hawaii-Aleutian, Cook Island',
-'UTC-09:30'							=>	'(UTC-09:30) Marquesas Islands',
-'UTC-09:00'							=>	'(UTC-09:00) Alaska, Gambier Island',
-'UTC-08:30'							=>	'(UTC-08:30) Pitcairn Islands',
-'UTC-08:00'							=>	'(UTC-08:00) Pacific',
-'UTC-07:00'							=>	'(UTC-07:00) Mountain',
-'UTC-06:00'							=>	'(UTC-06:00) Central',
-'UTC-05:00'							=>	'(UTC-05:00) Eastern',
-'UTC-04:00'							=>	'(UTC-04:00) Atlantic',
-'UTC-03:30'							=>	'(UTC-03:30) Newfoundland',
-'UTC-03:00'							=>	'(UTC-03:00) Amazon, Central Greenland',
-'UTC-02:00'							=>	'(UTC-02:00) Mid-Atlantic',
-'UTC-01:00'							=>	'(UTC-01:00) Azores, Cape Verde, Eastern Greenland',
-'UTC'								=>	'(UTC) Western European, Greenwich',
-'UTC+01:00'							=>	'(UTC+01:00) Central European, West African',
-'UTC+02:00'							=>	'(UTC+02:00) Eastern European, Central African',
-'UTC+03:00'							=>	'(UTC+03:00) Eastern African',
+'UTC-10:00'							=>	'(UTC-10:00) Hawaje-Aleuty, Wyspy Cooka',
+'UTC-09:30'							=>	'(UTC-09:30) Markizy',
+'UTC-09:00'							=>	'(UTC-09:00) Alaska, Wyspy Gambiera',
+'UTC-08:30'							=>	'(UTC-08:30) Pitcairn',
+'UTC-08:00'							=>	'(UTC-08:00) Pacyficzny',
+'UTC-07:00'							=>	'(UTC-07:00) Górski',
+'UTC-06:00'							=>	'(UTC-06:00) Środkowy, Meksyk',
+'UTC-05:00'							=>	'(UTC-05:00) Wschodni, Bogota, Lima',
+'UTC-04:00'							=>	'(UTC-04:00) Atlantycki, Caracas, La Paz',
+'UTC-03:30'							=>	'(UTC-03:30) Nowa Fundlandia',
+'UTC-03:00'							=>	'(UTC-03:00) Amazonia, Grenlandia Centralna',
+'UTC-02:00'							=>	'(UTC-02:00) Środkowy Atlantyk',
+'UTC-01:00'							=>	'(UTC-01:00) Azory, Cape Verde, Wschodnia Grenlandia',
+'UTC'								=>	'(UTC) Europa Zachodnia, Greenwich',
+'UTC+01:00'							=>	'(UTC+01:00) Europa Centralna, Afryka Zachodnia',
+'UTC+02:00'							=>	'(UTC+02:00) Europa Wschodnia, Afryka Centralna',
+'UTC+03:00'							=>	'(UTC+03:00) Afryka Wschodnia',
 'UTC+03:30'							=>	'(UTC+03:30) Iran',
-'UTC+04:00'							=>	'(UTC+04:00) Moscow, Gulf, Samara',
-'UTC+04:30'							=>	'(UTC+04:30) Afghanistan',
+'UTC+04:00'							=>	'(UTC+04:00) Moskwa, Zatoka Perska, Samara',
+'UTC+04:30'							=>	'(UTC+04:30) Afganistan',
 'UTC+05:00'							=>	'(UTC+05:00) Pakistan',
-'UTC+05:30'							=>	'(UTC+05:30) India, Sri Lanka',
+'UTC+05:30'							=>	'(UTC+05:30) Indie, Sri Lanka',
 'UTC+05:45'							=>	'(UTC+05:45) Nepal',
-'UTC+06:00'							=>	'(UTC+06:00) Bangladesh, Bhutan, Yekaterinburg',
-'UTC+06:30'							=>	'(UTC+06:30) Cocos Islands, Myanmar',
-'UTC+07:00'							=>	'(UTC+07:00) Indochina, Novosibirsk',
-'UTC+08:00'							=>	'(UTC+08:00) Greater China, Australian Western, Krasnoyarsk',
-'UTC+08:45'							=>	'(UTC+08:45) Southeastern Western Australia',
-'UTC+09:00'							=>	'(UTC+09:00) Japan, Korea, Chita, Irkutsk',
-'UTC+09:30'							=>	'(UTC+09:30) Australian Central',
-'UTC+10:00'							=>	'(UTC+10:00) Australian Eastern',
+'UTC+06:00'							=>	'(UTC+06:00) Bangladesz, Bhutan, Jekaterynburg',
+'UTC+06:30'							=>	'(UTC+06:30) Wyspy Kokosowe, Mjanma',
+'UTC+07:00'							=>	'(UTC+07:00) Indochiny, Nowosybirsk',
+'UTC+08:00'							=>	'(UTC+08:00) Chiny, Australia Zachodnia, Krasnojarsk',
+'UTC+08:45'							=>	'(UTC+08:45) Australia Południowo-wschodnia i Zachodnia',
+'UTC+09:00'							=>	'(UTC+09:00) Japonia, Korea, Chita, Irkuck',
+'UTC+09:30'							=>	'(UTC+09:30) Australia Centralna',
+'UTC+10:00'							=>	'(UTC+10:00) Australia Wschodnia',
 'UTC+10:30'							=>	'(UTC+10:30) Lord Howe',
-'UTC+11:00'							=>	'(UTC+11:00) Solomon Island, Vladivostok',
-'UTC+11:30'							=>	'(UTC+11:30) Norfolk Island',
-'UTC+12:00'							=>	'(UTC+12:00) New Zealand, Fiji, Magadan',
-'UTC+12:45'							=>	'(UTC+12:45) Chatham Islands',
-'UTC+13:00'							=>	'(UTC+13:00) Tonga, Phoenix Islands, Kamchatka',
-'UTC+14:00'							=>	'(UTC+14:00) Line Islands',
+'UTC+11:00'							=>	'(UTC+11:00) Wyspy Salomona, Władywostok',
+'UTC+11:30'							=>	'(UTC+11:30) Norfolk',
+'UTC+12:00'							=>	'(UTC+12:00) Nowa Zelandia, Fidżi, Magadan',
+'UTC+12:45'							=>	'(UTC+12:45) Wyspy Chatham',
+'UTC+13:00'							=>	'(UTC+13:00) Tonga, Feniks, Kamczatka',
+'UTC+14:00'							=>	'(UTC+14:00) Wyspy Line',
 
 //
 // Timeout Section
 //
 
-'Timeouts subhead'					=>	'Time and timeouts',
-'PHP manual'						=>	'PHP manual',
-'Time format help'					=>	'Now: %s. See %s for more info',
-'Date format help'					=>	'Now: %s. See %s for more info',
-'Visit timeout label'				=>	'Visit timeout',
-'Visit timeout help'				=>	'Time before a visit ends',
-'Online timeout label'				=>	'Online timeout',
-'Online timeout help'				=>	'Time before someone isn\'t online anymore',
+'Timeouts subhead'					=>	'Ustawienia czasu',
+'PHP manual'						=>	'Podręcznik PHP',
+'Time format help'					=>	'Teraz: %s. Zobacz %s żeby uzyskać więcej informacji',
+'Date format help'					=>	'Teraz: %s. Zobacz %s żeby uzyskać więcej informacji',
+'Visit timeout label'				=>	'Czas wygaśnięcia sesji',
+'Visit timeout help'				=>	'Czas jaki musi upłynąć, kiedy użytkownik jest nieaktywny, żeby jego sesja wygasła',
+'Online timeout label'				=>	'Okres bezczynności',
+'Online timeout help'				=>	'Czas po którym użytkownik zostaje usunięty z listy użytkowników online',
 
 //
 // Feeds section
 //
 
-'Feed subhead'						=>	'Syndication',
-'Default feed label'				=>	'Default feed type',
-'Default feed help'					=>	'Select a feed',
-'None'								=>	'None',
+'Feed subhead'						=>	'Ustawienia kanału RSS/Atom',
+'Default feed label'				=>	'Domyślny typ kanału',
+'Default feed help'					=>	'Wybierz kanał',
+'None'								=>	'Żaden',
 'RSS'								=>	'RSS',
 'Atom'								=>	'Atom',
-'Feed TTL label'					=>	'Duration to cache feeds',
-'Feed TTL help'						=>	'Reduce sources by caching feeds',
-'No cache'							=>	'Don\'t cache',
-'Minutes'							=>	'%d minutes',
+'Feed TTL label'					=>	'Czas przechowywania kanałów',
+'Feed TTL help'						=>	'Redukuje zużycie zasobów, przez zapisywanie kanałów w pamięci podręcznej.',
+'No cache'							=>	'Nie przechowuj w pamięci podręcznej',
+'Minutes'							=>	'%d minut',
 
 //
 // Reports section
 //
 
-'Reporting method label'			=>	'Reporting method',
-'Internal'							=>	'Internal',
-'Both'								=>	'Both',
-'Reporting method help'				=>	'How should we handle reports?',
-'Mailing list label'				=>	'Mailing list',
-'Mailing list help'					=>	'A comma separated list of subscribers who get e-mails when new reports are made',
+'Reporting method label'			=>	'Metoda zgłaszania',
+'Internal'							=>	'Wewnętrzna',
+'Both'								=>	'Obie',
+'Reporting method help'				=>	'Jak traktować zgłoszenia?',
+'Mailing list label'				=>	'Lista dystrybucyjna',
+'Mailing list help'					=>	'Lista użytkowników, oddzielonych przecinkami, którzy zostaną powiadomieni o nowym zgłoszeniu',
 
 //
 // Avatars section
 //
 
-'Avatars subhead'					=>	'Avatars',
-'Use avatars label'					=>	'Use avatars',
-'Use avatars help'					=>	'Enable so users can upload avatars.',
-'Upload directory label'			=>	'Upload directory',
-'Upload directory help'				=>	'Where avatars will be stored relative to ModernBBs root, write permission required',
-'Max width label'					=>	'Max width',
-'Max height label'					=>	'Max height',
-'Max size label'					=>	'Max size',
+'Avatars subhead'					=>	'Zdjęcia profilowe',
+'Use avatars label'					=>	'Używaj zdjęć profilowych',
+'Use avatars help'					=>	'Jeśli włączono, użytkownicy będą mogli dodawać swoje zdjęcia profilowe.',
+'Upload directory label'			=>	'Folder do przechowywania zdjęć',
+'Upload directory help'				=>	'Miejsce na serwerze, gdzie będą przechowywane zdjęcia profilowe użytkowników. Wymagane prawa dostępu do folderu, umożliwiające zapisywanie (chmod 0777)',
+'Max width label'					=>	'Maksymalna szerokość',
+'Max height label'					=>	'Maksymalna wysokość',
+'Max size label'					=>	'Maksymalny rozmiar',
 
 //
 // Registration Section
 //
 
-'Allow new label'					=>	'Allow new registrations',
-'Allow new help'					=>	'Allow new users to be made by people.',
-'Verify label'						=>	'Verify registrations',
-'Verify help'						=>	'Send a random password to users to verify their email address.  ',
-'Report new label'					=>	'Report new registrations',
-'Report new help'					=>	'Notify people on the mailing list when new user registers.  ',
-'Use rules label'					=>	'User forum rules',
-'Use rules help'					=>	'Require users to agree with the rules. This will also enable a "Rules" link in the navigation bar.',
-'Rules label'						=>	'Enter your rules here',
-'Rules help'						=>	'Enter rules or useful information, required when rules are enabled',
-'E-mail default label'				=>	'Default email setting',
-'E-mail default help'				=>	'Default privacy setting for new registrations',
-'Display e-mail label'				=>	'Display email address to other users.',
-'Hide allow form label'				=>	'Hide email address but allow form e-mail.',
-'Hide both label'					=>	'Hide email address and disallow form email.',
+'Allow new label'					=>	'Pozwól na rejestrację',
+'Allow new help'					=>	'Zezwalaj na rejestrację nowych użytkowników na forum.',
+'Verify label'						=>	'Weryfikacja przy rejestracji',
+'Verify help'						=>	'Wysyła losowe hasło na podany adres e-mail, w celu jego weryfikacji.',
+'Report new label'					=>	'Powiadamiaj o rejestracjach',
+'Report new help'					=>	'Wysyłanie powiadomienia o nowych rejestracjach, na adresy znajdujące się na liście dystrybucyjnej',
+'Use rules label'					=>	'Regulamin forum',
+'Use rules help'					=>	'Wymaga wyrażenia zgody na postanowienia Regulaminu. Dodatkowo odnośnik do Regulaminu, pojawia się w menu nawigacyjnym.',
+'Rules label'						=>	'Regulamin',
+'Rules help'						=>	'Wpisz tutaj treść regulaminu lub inne przydatne informacje, wymagane gdy ta funkcja jest aktywna',
+'E-mail default label'				=>	'Domyślne ustawienia e-mail',
+'E-mail default help'				=>	'Domyślne ustawienia prywatności dla nowych użytkowników',
+'Display e-mail label'				=>	'Wyświetlaj adres e-mail.',
+'Hide allow form label'				=>	'Ukrywaj adres e-mail ale pozwól na wysyłanie wiadomości.',
+'Hide both label'					=>	'Ukrywaj adres e-mail i nie pozwalaj na wysyłanie wiadomości.',
 
 //
 // Announcement Section
 //
 
-'Announcements'						=>	'Announcements',
-'Display announcement help'			=>	'Enable this to display the below message in the board.',
+'Announcements'				=>	'Ogłoszenia',
+'Display announcement help'			=>	'Włącz tę opcję, żeby wyświetlić poniższą wiadomość na stronie.',
 
 //
 // Maintenance Section
 //
 
-'Maintenance mode help'				=>	'Enable to activate maintenance mode, the board will only be available for admins. Do not log out when this feature is active!',
-'Maintenance message help'			=>	'The message to tell users about the maintenance',
-'Cache'								=>	'Cache',
-'Cache info'						=>	'Remove all cache files so the database has to return up-to-date values',
-'Clear cache'						=>	'Clear cache',
+'Maintenance mode help'				=>	'Włącz tę opcję, żeby aktywować tryb konserwacyjny. W tym czasie forum będzie dostępne tylko dla administratorów. Nie wylogowuj się, gdy ta funkcja jest aktywna!',
+'Maintenance message help'			=>	'Wiadomość dla użytkowników o trwającej przerwie',
+'Cache'								=>	'Pamięć podręczna',
+'Cache info'						=>	'Usuń zawartość pamięci podręcznej żeby pobrać najnowsze dane z bazy',
+'Clear cache'						=>	'Wyczyść pamięć podręczną',
 
 //
 // Language for permissions.php
 //
 
-'All caps'					=>	'All caps',
-'Posting subhead'			=>	'Posting',
-'BBCode help'				=>	'Allow BBCode in posts (recommended).',
-'Image tag help'			=>	'Allow the BBCode [img] tag in posts.',
-'All caps message help'		=>	'Allow a message to contain only capital letters.',
-'All caps subject help'		=>	'Allow a subject to contain only capital letters.',
-'Require e-mail help'		=>	'Require guests to supply an email address when posting.',
-'Signatures subhead'		=>	'Signatures',
-'BBCode sigs help'			=>	'Allow BBCode in user signatures.',
-'Image tag sigs help'		=>	'Allow the BBCode [img] tag in user signatures (not recommended).',
-'All caps sigs help'		=>	'Allow a signature to contain only capital letters.',
-'Max sig length label'		=>	'Maximum signature length',
-'Max sig length help'		=>	'Maximum amount of characters a signature can have',
-'Max sig lines label'		=>	'Maximum signature lines',
-'Max sig lines help'		=>	'Maximum amount of lines a signature can have',
-'Banned e-mail help'		=>	'Allow users to use a banned email address, mailing list will be warned when this happens.',
-'Duplicate e-mail help'		=>	'Allow users to use an email address that is already used, mailing list will be warned when this happens.',
+'All caps'					=>	'Wielkie litery',
+'Posting subhead'			=>	'Pisanie postów',
+'BBCode help'				=>	'Zezwól na używanie BBCode w postach (zalecane).',
+'Image tag help'			=>	'Zezwól na używanie znacznika BBCode [img] w postach.',
+'All caps message help'		=>	'Zezwól na posty, zawierające wyłącznie WIELKIE litery.',
+'All caps subject help'		=>	'Zezwól na nazwy wątków, zawierające wyłącznie WIELKIE litery.',
+'Require e-mail help'		=>	'Wymagaj od gości podania adresu e-mail, przy publikacji posta.',
+'Signatures subhead'		=>	'Podpisy',
+'BBCode sigs help'			=>	'Zezwól na używanie BBCode w podpisach użytkowników.',
+'Image tag sigs help'		=>	'Zezwól na używanie znacznika BBCode [img] w podpisach użytkowników (nie zalecane).',
+'All caps sigs help'		=>	'Zezwól na podpisy użytkowników, zawierające wyłącznie WIELKIE litery.',
+'Max sig length label'		=>	'Maksymalna długość podpisu',
+'Max sig length help'		=>	'Maksymalna liczba znaków, jaką może zawierać podpis',
+'Max sig lines label'		=>	'Maksymalna ilość wierszy w podpisie',
+'Max sig lines help'		=>	'Określa, ile maksymalnie wierszy, może zawierać podpis użytkownika',
+'Banned e-mail help'		=>	'Zezwalaj użytkownikom na używanie zablokowanych adresów e-mail. W przypadku użycia, zostanie wysłane powiadomienie, na adresy znajdujące się na liście dystrybucyjnej.',
+'Duplicate e-mail help'		=>	'Zezwalaj użytkownikom na używanie już wykorzystanych adresów e-mail. W przypadku użycia, zostanie wysłane powiadomienie, na adresy znajdujące się na liście dystrybucyjnej.',
 
 //
 // Language for ranks.php
 //
 
-'Must be integer message'	=>	'Minimum posts must be a positive integer value.',
-'Dupe min posts message'	=>	'There is already a rank with a minimun posts value of %s.',
-'Add rank subhead'			=>	'Add rank',
-'Ranks disabled'			=>	'<strong>User ranks is disabled in %s.</strong>',
-'Rank title label'			=>	'Rank title',
-'Minimum posts label'		=>	'Minimum posts',
-'Edit remove subhead'		=>	'Edit/remove ranks',
-'No ranks in list'			=>	'No ranks in list',
+'Must be integer message'	=>	'Wartość minimalnej liczby postów, nie może być ujemna oraz musi być liczbą całkowitą większą od zera ^^.',
+'Dupe min posts message'	=>	'Już istnieje ranga z minimalną ilością postów, wynoszącą: %s.',
+'Add rank subhead'			=>	'Dodaj rangę',
+'Ranks disabled'			=>	'<strong>Rangi są wyłączone w %s.</strong>',
+'Rank title label'			=>	'Tytuł rangi',
+'Minimum posts label'		=>	'Minimalna ilość postów',
+'Edit remove subhead'		=>	'Edytuj/usuń rangi',
+'No ranks in list'			=>	'Brak dostępnych rang',
 
 //
 // Language for reports.php
 //
 
-'Deleted user'				=>	'Deleted user',
-'Deleted'					=>	'Deleted',
+'Deleted user'				=>	'Usunięty użytkownik',
+'Deleted'					=>	'Usunięty',
 'Post ID'					=>	'Post #%s',
-'Reported by'				=>	'Reported by',
-'Actions'					=>	'Actions',
-'Zap'						=>	'Mark as read',
-'Last 10 head'				=>	'10 last read reports',
-'Readed by'					=>	'Marked as read by',
-'No zapped reports'			=>	'There are no read reports.',
+'Reported by'				=>	'Zgłaszający',
+'Actions'					=>	'Akcje',
+'Zap'						=>	'Oznacz jako przeczytane',
+'Last 10 head'				=>	'10 ostatnio przeczytanych zgłoszeń',
+'Readed by'					=>	'Oznaczone jako przeczytane przez',
+'No zapped reports'			=>	'Brak nieprzeczytanych zgłoszeń.',
 
 //
 // Language for statistics.php
 //
 
-'PHPinfo disabled message'			=>	'The PHP function phpinfo() has been disabled on this server.',
-'Server statistics head'			=>	'Server statistics',
-'Server load label'					=>	'Server load',
-'Server load data'					=>	'%s - %s user(s) online',
-'Environment label'					=>	'Environment',
-'Environment data OS'				=>	'Operating system: %s',
-'Show info'							=>	'Show info',
+'PHPinfo disabled message'			=>	'Funkcja PHP - phpinfo() jest wyłączona na tym serwerze.',
+'Server statistics head'			=>	'Statystyki serwera',
+'Server load label'					=>	'Obciążenie serwera',
+'Server load data'					=>	'%s - Użytkownicy online: %s',
+'Environment label'					=>	'Środowisko',
+'Environment data OS'				=>	'System operacyjny: %s',
+'Show info'							=>	'Pokaż info',
 'Environment data version'			=>	'PHP: %s - %s',
-'Environment data acc'				=>	'Accelerator: %s',
+'Environment data acc'				=>	'Akcelerator: %s',
 'Turck MMCache'						=>	'Turck MMCache',
 'Turck MMCache link'				=>	'turck-mmcache.sourceforge.net/',
 'ionCube PHP Accelerator'			=>	'ionCube PHP Accelerator',
@@ -1510,145 +1513,145 @@ $lang = array(
 'eAccelerator link'					=>	'www.eaccelerator.net/',
 'XCache'							=>	'XCache',
 'XCache link'						=>	'xcache.lighttpd.net/',
-'Database label'					=>	'Database',
-'Database data rows'				=>	'Rows: %s',
-'Database data size'				=>	'Size: %s',
+'Database label'					=>	'Baza danych',
+'Database data rows'				=>	'Wierszy: %s',
+'Database data size'				=>	'Rozmiar: %s',
 
 //
 // Language for users.php
 //
 
-'Non numeric message'		=>	'You entered a non-numeric value into a numeric only column.',
-'Invalid date time message'	=>	'You entered an invalid date/time.',
-'Not verified'				=>	'Not verified',
+'Non numeric message'		=>	'Wpisano wartość nie numeryczną w kolumnę numeryczną.',
+'Invalid date time message'	=>	'Wpisano nieprawidłową datę/czas.',
+'Not verified'				=>	'Nie zweryfikowano',
 
 //
 // Actions: mass delete/ban etc.
 //
 
-'No users selected'			=>	'No users selected.',
-'No move admins message'	=>	'For security reasons, you are not allowed to move multiple administrators to another group. If you want to move these administrators, you can do so on their respective user profiles.',
-'No delete admins message'	=>	'Administrators cannot be deleted. In order to delete administrators, you must first move them to a different user group.',
-'No ban admins message'		=>	'Administrators cannot be banned. In order to ban administrators, you must first move them to a different user group.',
-'No ban mods message'		=>	'Moderators cannot be banned. In order to ban moderators, you must first move them to a different user group.',
-'Move users'				=>	'Change user group',
-'New group label'			=>	'New group',
-'New group help'			=>	'Select a new user group',
-'Invalid group message'		=>	'Invalid group ID.',
-'Delete users'				=>	'Delete users',
-'Ban users'					=>	'Ban users',
-'Ban IP label'				=>	'Ban IP addresses',
-'Ban IP help'				=>	'Also ban the IP addresses of the banned users to make registering a new account more difficult for them.',
+'No users selected'			=>	'Nie wybrano użytkowników.',
+'No move admins message'	=>	'Ze względów bezpieczeństwa, nie można przenosić jednocześnie wielu administratorów do innej grupy. Jeśli chcesz przenieść tych administratorów, możesz to zrobić z poziomu ich profili.',
+'No delete admins message'	=>	'Administratorzy nie mogą być usunięci. Jeśli chcesz usunąć tych użytkowników, musisz najpierw przenieść ich do innej grupy',
+'No ban admins message'		=>	'Administratorzy nie mogą być zablokowani. Jeśli chcesz zablokować tych użytkowników, musisz najpierw przenieść ich do innej grupy.',
+'No ban mods message'		=>	'Moderatorzy nie mogą być zablokowani. Jeśli chcesz zablokować tych użytkowników, musisz najpierw przenieść ich do innej grupy.',
+'Move users'				=>	'Zmień grupę użytkownika',
+'New group label'			=>	'Nowa grupa',
+'New group help'			=>	'Wybierz nową grupę użytkownika',
+'Invalid group message'		=>	'Nieprawidłowy ID grupy.',
+'Delete users'				=>	'Usuń użytkowników',
+'Ban users'					=>	'Blokowanie użytkowników',
+'Ban IP label'				=>	'Zablokuj adresy IP',
+'Ban IP help'				=>	'Blokuj także adresy IP zablokowanych użytkowników, żeby utrudnić im tworzenie nowych kont.',
 
-'E-mail address label'		=>	'Email address',
-'Real name label'			=>	'Real name',
-'Signature'					=>	'Signature',
-'Posts more than label'		=>	'Number of posts greater than',
-'Posts less than label'		=>	'Number of posts less than',
-'Last post after label'		=>	'Last post is after',
-'Last post before label'	=>	'Last post is before',
-'Last visit after label'	=>	'Last visit is after',
-'Last visit before label'	=>	'Last visit is before',
-'Registered after label'	=>	'Registered after',
-'Registered before label'	=>	'Registered before',
-'Order by posts'			=>	'Number of posts',
-'Order by last visit'		=>	'Last visit',
-'Order by registered'		=>	'Registered',
-'All groups'				=>	'All groups',
-'Unverified users'			=>	'Unverified users',
-'IP search head'			=>	'IP search',
-'IP address label'			=>	'IP address',
-'IP address help'			=>	'The IP address to search for in the post database.',
-'Find IP address'			=>	'Find IP address',
+'E-mail address label'		=>	'Adres e-mail',
+'Real name label'			=>	'Prawdziwe imię',
+'Signature'					=>	'Podpis',
+'Posts more than label'		=>	'Ilość postów większa niż',
+'Posts less than label'		=>	'Ilość postów mniejsza niż',
+'Last post after label'		=>	'Ostatni post napisany po',
+'Last post before label'	=>	'Ostatni post napisany przed',
+'Last visit after label'	=>	'Ostatnio na forum po',
+'Last visit before label'	=>	'Ostatnio na forum przed',
+'Registered after label'	=>	'Rejestracja po',
+'Registered before label'	=>	'Rejestracja przed',
+'Order by posts'			=>	'Ilości postów',
+'Order by last visit'		=>	'Dacie ostatniej wizyty',
+'Order by registered'		=>	'Dacie rejestracji',
+'All groups'				=>	'Wszystkie grupy',
+'Unverified users'			=>	'Użytkownicy niezweryfikowani',
+'IP search head'			=>	'Wyszukiwanie po adresie IP',
+'IP address label'			=>	'Adres IP',
+'IP address help'			=>	'Podaj adres IP który chcesz wyszukać w bazie danych postów.',
+'Find IP address'			=>	'Znajdź adres IP',
 
-'Results title head'		=>	'Title/Status',
-'Results posts head'		=>	'Posts',
-'Results last used head'	=>	'Last used',
-'Results times found head'	=>	'Times found',
-'Results find more link'	=>	'Find more users for this ip',
-'Results no posts found'	=>	'There are currently no posts by that user in the forum.',
-'Ban'						=>	'Ban',
-'Change group'				=>	'Change group',
-'Bad IP message'			=>	'The supplied IP address is not correctly formatted.',
-'Results view IP link'		=>	'IP stats',
-'Results no IP found'		=>	'The supplied IP address could not be found in the database.',
+'Results title head'		=>	'Tytuł/Status',
+'Results posts head'		=>	'Postów',
+'Results last used head'	=>	'Ostatnio użyty',
+'Results times found head'	=>	'Znaleziony',
+'Results find more link'	=>	'Znajdź więcej użytkowników, korzystających z tego IP',
+'Results no posts found'	=>	'Nie ma postów napisanych przez tego użytkownika.',
+'Ban'						=>	'Blokada',
+'Change group'				=>	'Zmień grupę',
+'Bad IP message'			=>	'Podany adres IP nie ma prawidłowego formatu.',
+'Results view IP link'		=>	'Statystyki IP',
+'Results no IP found'		=>	'Nie można odnaleźć podanego adresu IP w bazie danych.',
 
 //
 // Create new user
 //
 
-'Add user head'				=>	'Add user',
-'Random password info'		=>	'Generate a random password, this will be emailed to the above address. When checked, leave "Password" empty.',
+'Add user head'				=>	'Dodaj użytkownika',
+'Random password info'		=>	'Wygeneruj losowe hasło, które będzie wysłane na podany wyżej adres. Jeśli zaznaczono, nie wypełniaj pola "Hasło".',
 
 //
 // Common language used in /backstage/
 // Main menu
 //
 
-'Content'				=>	'Content',
-'Forums'				=>	'Forums',
-'Forum settings'		=>	'Forum settings',
-'Categories'			=>	'Categories',
-'Board'					=>	'Board',
-'Board structure'		=>	'Board structure',
-'Censoring'				=>	'Censoring',
-'Reports'				=>	'Reports',
-'Users'					=>	'Users',
-'Ranks'					=>	'Ranks',
-'Groups'				=>	'Groups',
-'Permissions'			=>	'Permissions',
-'Bans'					=>	'Bans',
-'Settings'				=>	'Settings',
-'Global'				=>	'Global',
-'Registration'			=>	'Registration',
-'Email'					=>	'Email',
-'Database'				=>	'Database management',
-'Backstage settings'	=>	'Backstage settings',
-'Extensions'			=>	'Extensions',
+'Content'				=>	'Zawartość',
+'Forums'				=>	'Fora',
+'Forum settings'		=>	'Ustawienia forum',
+'Categories'			=>	'Kategorie',
+'Board'					=>	'Forum',
+'Board structure'		=>	'Układ forum',
+'Censoring'				=>	'Cenzura słów',
+'Reports'				=>	'Zgłoszenia',
+'Users'					=>	'Użytkownicy',
+'Ranks'					=>	'Rangi',
+'Groups'				=>	'Grupy',
+'Permissions'			=>	'Uprawnienia',
+'Bans'					=>	'Blokady',
+'Settings'				=>	'Ustawienia',
+'Global'				=>	'Ogólne',
+'Registration'			=>	'Rejestracja',
+'Email'					=>	'E-mail',
+'Database'				=>	'Zarządzanie bazą danych',
+'Backstage settings'	=>	'Ustawienia Zaplecza',
+'Extensions'			=>	'Rozszerzenia',
 
 //
 // Others
 //
 
-'Prune'					=>	'Prune',
-'Server statistics'		=>  'Server statistics',
+'Prune'					=>	'Czyszczenie',
+'Server statistics'		=>  'Statystyki serwera',
 
 //
 // Update service
 //
 
-'Available'				=>	'An update, ModernBB v%s, is available',
-'Development'			=>	'You are running version %s, the latest stable release is version %s.',
-'Download'				=>	'Download v%s',
-'Changelog'				=>	'Changelog',
+'Available'				=>	'Jest dostępna aktualizacja ModernBB v%s',
+'Development'			=>	'Zainstalowana wersja %s, najnowsza, stabilna wersja to %s.',
+'Download'				=>	'Pobierz v%s',
+'Changelog'				=>	'Lista zmian',
 
 //
 // General actions and more
 //
 
-'Admin'					=>	'Admin',
-'Go back'				=>	'Go back',
-'Update'				=>	'Update',
-'Add'					=>	'Add',
-'Remove'				=>	'Remove',
-'Yes'					=>	'Yes',
-'No'					=>	'No',
-'here'					=>	'here',
-'Action'				=>	'Action',
-'Maintenance mode'		=>	'maintenance mode', // Used for link text in more than one file
+'Admin'					=>	'Administracja',
+'Go back'				=>	'Wróć',
+'Update'				=>	'Aktualizuj',
+'Add'					=>	'Dodaj',
+'Remove'				=>	'Usuń',
+'Yes'					=>	'Tak',
+'No'					=>	'Nie',
+'here'					=>	'tutaj',
+'Action'				=>	'Akcja',
+'Maintenance mode'		=>	'tryb konserwacji', // Used for link text in more than one file
 
 // Cookie bar
-'Cookie bar'			=>	'Cookie bar',
-'Cookie info'			=>	'We use cookies to give you the best experience on this board.',
-'More info'				=>	'More info',
-'Cookie set info'		=>	'Show a bar with information about cookies at the bottom of the page.',
+'Cookie bar'			=>	'Informacja o ciasteczkach',
+'Cookie info'			=>	'Używamy ciasteczek, aby dać ci jak najlepsze wrażenia, przy korzystaniu z naszego forum.',
+'More info'				=>	'Więcej informacji',
+'Cookie set info'		=>	'Pokaż pasek z informacją o ciasteczkach na dole strony.',
 
 //
 // Admin loader
 //
 
-'No plugin message'		=>	'There is no plugin called %s in the plugin directory.',
-'Plugin failed message'	=>	'Loading of the plugin - <strong>%s</strong> - failed.',
+'No plugin message'		=>	'Nie ma wtyczki %s w folderze wtyczek.',
+'Plugin failed message'	=>	'Ładowanie wtyczki <strong>%s</strong> zakończyło się niepowodzeniem.',
 
 //
 // Email templtes
@@ -1656,105 +1659,105 @@ $lang = array(
 
 // Email - activate_email.tpl
 'activate_email.tpl'          =>
-'Subject: Change email address requested
+'Temat: Żądanie zmiany adresu e-mail
 
-Hello <username>,
+Witaj <username>,
 
-You have requested to have a new email address assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your email address you should just ignore this message. Only if you visit the activation page below will your email address be changed. In order for the activation page to work, you must be logged in to the forum.
+Zażądałeś zmiany adresu e-mail, przypisanego do twojego konta na forum <base_url>. Jeśli to nie ty zażądałeś zmiany adresu e-mail, zignoruj tę wiadomość. Zmiana adresu e-mail będzie możliwa wyłącznie wtedy, gdy odwiedzisz stronę aktywacyjną z odnośnika podanego poniżej. Żeby aktywacja zadziałała, musisz być zalogowany na forum.
 
-To change your email address, please visit the following page:
+Żeby zmienić adres e-mail, odwiedź poniższą stronę:
 <activation_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 //
 // Email - activate_password.tpl
 //
 'activate_password.tpl'          =>
-'Subject: New password requested
+'Temat: Żądanie zmiany hasła
 
-Hello <username>,
+Witaj <username>,
 
-You have requested to have a new password assigned to your account in the discussion forum at <base_url>. If you did not request this or if you do not want to change your password you should just ignore this message. Only if you visit the activation page below will your password be changed.
+Zażądałeś zmiany hasła, przypisanego do twojego konta na forum <base_url>. Jeśli to nie ty zażądałeś zmiany hasła, zignoruj tę wiadomość. Zmiana hasła będzie możliwa wyłącznie wtedy, gdy odwiedzisz stronę aktywacyjną z odnośnika podanego poniżej.
 
-Your new password is: <new_password>
+Twoje nowe hasło to: <new_password>
 
-To change your password, please visit the following page:
+Żeby zmienić hasło, odwiedź poniższą stronę:
 <activation_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - banned_email_change.tpl
 'banned_email_change.tpl'          =>
-'Subject: Alert - Banned email detected
+'Temat: Uwaga - wykryto zablokowany adres e-mail
 
-User "<username>" changed to banned email address: <email>
+Użytkownik "<username>" do zmiany swojego adresu, użył zablokowanego adresu e-mail: <email>
 
-User profile: <profile_url>
+Profil użytkownika: <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - banned_email_post.tpl
 'banned_email_post.tpl'          =>
-'Subject: Alert - Banned email detected
+'Temat: Uwaga - wykryto zablokowany adres e-mail
 
-User "<username>" posted with banned email address: <email>
+Użytkownik "<username>" dodał posta z zablokowanego adresu e-mail: <email>
 
-Post URL: <post_url>
+Adres posta: <post_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - banned_email_register.tpl
 'banned_email_register.tpl'          =>
-'Subject: Alert - Banned email detected
+'Temat: Uwaga - wykryto zablokowany adres e-mail
 
-User "<username>" registered with banned email address: <email>
+Użytkownik "<username>" zarejestrował się, używając zablokowanego adresu e-mail: <email>
 
-User profile: <profile_url>
+Profil użytkownika: <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - dupe_email_change.tpl
 'dupe_email_change.tpl'          =>
-'Subject: Alert - Duplicate email detected
+'Temat: Uwaga - wykryto zdublowany adres e-mail
 
-User "<username>" changed to an email address that also belongs to: <dupe_list>
+Użytkownik "<username>" do zmiany swojego adresu, użył adresu e-mail, który należy także do: <dupe_list>
 
-User profile: <profile_url>
+Profil użytkownika: <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - dupe_email_register.tpl
 'dupe_email_register.tpl'          =>
-'Subject: Alert - Duplicate email detected
+'Temat: Uwaga - wykryto zdublowany adres e-mail
 
-User "<username>" registered with an email address that also belongs to: <dupe_list>
+Użytkownik "<username>" zarejestrował się używając adresu e-mail, należącego także do: <dupe_list>
 
-User profile: <profile_url>
+Profil użytkownika: <profile_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - form_email.tpl
 'form_email.tpl'          =>
-'Subject: <mail_subject>
+'Temat: "<mail_subject>"
 
-<sender> from <board_title> has sent you a message. You can reply to <sender> by replying to this email.
+<sender> z <board_title> wysłał tobie wiadomość. Możesz wysłać odpowiedź do <sender>, odpowiadając na tę wiadomość.
 
-The message reads as follows:
+Treść wiadomości:
 -----------------------------------------------------------------------
 
 <mail_message>
@@ -1762,133 +1765,133 @@ The message reads as follows:
 -----------------------------------------------------------------------
 
 --
-<board_mailer> Mailer',
+Automatyczna wiadomość wysłana z <board_mailer>',
 
 // Email - new_reply.tpl
 'new_reply.tpl'          =>
-'Subject: Reply to topic: "<topic_subject>"
+'Temat: Odpowiedź do wątku: "<topic_subject>"
 
-<replier> has replied to the topic "<topic_subject>" to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> odpowiedział w obserwowanym przez ciebie wątku "<topic_subject>". Może być więcej nowych odpowiedzi, jednakże nie będziesz o nich powiadamiany, do czasu aż nie odwiedzisz ponownie forum.
 
-The post is located at <post_url>
+Post znajduje się pod adresem <post_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+Aby przestać obserwować, odwiedź ten adres <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - new_reply_full.tpl
 'new_reply_full.tpl'          =>
-'Subject: Reply to topic: "<topic_subject>"
+'Temat: Reply to topic: "<topic_subject>"
 
-<replier> has replied to the topic "<topic_subject>" to which you are subscribed. There may be more new replies, but this is the only notification you will receive until you visit the board again.
+<replier> odpowiedział w obserwowanym przez ciebie wątku "<topic_subject>". Może być więcej nowych odpowiedzi, jednakże nie będziesz o nich powiadamiany, do czasu aż nie odwiedzisz ponownie forum.
 
-The post is located at <post_url>
+Post znajduje się pod adresem <post_url>
 
-The message reads as follows:
+Treść wiadomości:
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-You can unsubscribe by going to <unsubscribe_url>
+Aby przestać obserwować, odwiedź ten adres <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - new_report.tpl
 'new_report.tpl'          =>
-'Subject: Report(<forum_id>) - "<topic_subject>"
+'Temat: Report(<forum_id>) - "<topic_subject>"
 
-User "<username>" has reported the following message: <post_url>
+Użytkownik "<username>" zgłosił następującą zawartość: <post_url>
 
-Reason: <reason>
+Powód: <reason>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - new_topic.tpl
 'new_topic.tpl'          =>
-'Subject: New topic in forum: "<forum_name>"
+'Temat: Nowy wątek w forum: "<forum_name>"
 
-<poster> has posted a new topic "<topic_subject>" in the forum "<forum_name>", to which you are subscribed.
+<poster> dodał nowy wątek "<topic_subject>" w obserwowanym przez ciebie forum "<forum_name>".
 
-The topic is located at <topic_url>
+Wątek znajduje się pod adresem <topic_url>
 
-You can unsubscribe by going to <unsubscribe_url>
+Aby przestać obserwować, odwiedź ten adres <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - new_topic_full.tpl
 'new_topic_full.tpl'          =>
-'Subject: New topic in forum: "<forum_name>"
+'Temat: Nowy wątek w forum: "<forum_name>"
 
-<poster> has posted a new topic "<topic_subject>" in the forum "<forum_name>", to which you are subscribed.
+<poster> dodał nowy wątek "<topic_subject>" w obserwowanym przez ciebie forum "<forum_name>".
 
-The topic is located at <topic_url>
+Wątek znajduje się pod adresem <topic_url>
 
-The message reads as follows:
+Treść wiadomości:
 -----------------------------------------------------------------------
 
 <message>
 
 -----------------------------------------------------------------------
 
-You can unsubscribe by going to <unsubscribe_url>
+Aby przestać obserwować, odwiedź ten adres <unsubscribe_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - new_user.tpl
 'new_user.tpl'          =>
-'Subject: Alert - New registration
+'Temat: Uwaga - nowa rejestracja
 
-User "<username>" registered in the forums at <base_url>
+Na forum <base_url> zarejestrował się nowy użytkownik "<username>".
 
-User profile: <profile_url>
+Profil użytkownika: <profile_url>
 
-To administer this account, please visit the following page:
+w celu zarządzania kontem tego użytkownika, odwiedź poniższy adres:
 <admin_url>
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - rename.tpl
 'rename.tpl'          =>
-'Subject: User account renamed
+'Temat: Zmiana nazwy użytkownika
 
-During an upgrade to the forums at <base_url> it was determined your username is too similar to an existing user. Your username has been changed accordingly.
+Podczas aktualizacji forum pod adresem <base_url> stwierdzono że twoja nazwa użytkownika, jest zbyt podobna do nazwy istniejącego użytkownika. Twoja nazwa użytkownika, została odpowiednio zmieniona.
 
-Old username: <old_username>
-New username: <new_username>
+Stara nazwa: <old_username>
+Nowa nazwa: <new_username>
 
-We apologise for any inconvenience caused.
+Przepraszamy za spowodowane niedogodności.
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 // Email - welcome.tpl
 'welcome.tpl'          =>
-'Subject: Welcome to <board_title>!
+'Temat: Witamy na <board_title>!
 
-Thank you for registering in the forums at <base_url>. Your account details are:
+Dziękujemy za rejestrację na <base_url>. Szczegóły konta:
 
-Username: <username>
-Password: <password>
+Nazwa użytkownika: <username>
+Hasło: <password>
 
-Login at <login_url> to activate the account.
+Zaloguj się pod adresem <login_url> w celu aktywacji konta.
 
 --
-<board_mailer> Mailer
-(Do not reply to this message)',
+Automatyczna wiadomość wysłana z <board_mailer>
+(Nie odpowiadaj na tę wiadomość)',
 
 );
